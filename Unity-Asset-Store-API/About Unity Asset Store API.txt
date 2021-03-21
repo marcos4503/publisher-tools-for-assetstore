@@ -1,0 +1,2 @@
+https://publisher.assetstore.unity3d.com/api/publisher-info/sales/40306/202103.json
+https://publisher.assetstore.unity3d.com/feed/mt-assets/2NMaTPDCrMQnbvUky3uf95qkYi4/activity.rss
