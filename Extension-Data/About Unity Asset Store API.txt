@@ -2,7 +2,7 @@ This file shows some APIs of Unity and how to use each.
 
 [Sales API]
 
-URL:            https://publisher.assetstore.unity3d.com/api/publisher-info/sales/(Publisher_ID)/202103.json
+URL:            https://publisher.assetstore.unity3d.com/api/publisher-info/sales/(Publisher_ID)/(Period).json
 Publisher_ID:   It can be found at the URL of your Unity Publisher page. 
                 Example: https://assetstore.unity.com/publishers/12345 <- Here is the ID
 Period:         Period of Sales

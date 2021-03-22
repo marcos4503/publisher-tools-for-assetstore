@@ -3,14 +3,34 @@
 
     <head>
         <!-- Head of PopUp of Extension -->
-        <link rel="stylesheet" href="../css/base.css">
+        <link rel="stylesheet" href="../css/all-content.css">
         <script src="../js/popup.js"></script>
     </head>
 
     <body>
         <!-- Body of PopUp of Extension -->
-        <div class="extensionPopUp">
+        <div class="extensionPopUpBase">
 
+            <!-- Login PopUp -->
+            <div id="loginPopUpBgNode" class="loginPopUpBg"></div>
+            <div id="loginPopUpBaseNode" class="loginPopUpBase">
+                <div class="loginPopUp">
+                    <div class="loginPopUpContent">
+                        <center>
+                            <div class="loginPopUpTitle">Please provide the necessary data!</div>
+                            <div class="loginPopUpSubtitle">The extension needs you to provide some data in order to be able to use it. Please fill in the fields below.</div>
+                            <input id="loginPublisherId" type="number" placeholder="Publisher ID" />
+                            <br>
+                            <input id="loginReviewsRss" type="text" placeholder="Reviews RSS" />
+                            <br>
+                            <input id="loginButton" type="button" value="Save" />
+                        </center>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PopUp Content -->
+            <div class="topbar"></div>
         </div>
     </body>
 
