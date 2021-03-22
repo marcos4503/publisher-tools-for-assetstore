@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Publisher Tools For Asset Store",
-    "description": "Offers tools for Publishers of the Asset Store, such as Review and Sales notifications.",
+    "description": "Offers tools for Publishers of the Asset Store, such as Review (Updateds and News) and Sales notifications.",
     "version": "1.0.0",
     "browser_action": {
         "default_icon": "img/icon19.png",

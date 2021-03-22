@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/resources/xsl/rss/activity.xsl"?>
+
+<rss version="2.0"
+ xmlns:blogChannel="http://backend.userland.com/blogChannelModule"
+>
+
+<channel>
+<title>Unity Asset Store - Latest activity for MT Assets</title>
+<link>http://u3d.as/1pbd</link>
+<description>The latest activity for MT Assets in the Unity Asset Store.</description>
+<language>en-us</language>
+<copyright>Unity Technologies</copyright>
+<pubDate>Mon, 22 Mar 2021 20:55:31 -0000</pubDate>
+<ttl>10</ttl>
+
+<image>
+<title>Unity</title>
+<url>http://download.unity3d.com/images/news/unity-logo.png</url>
+<link>http://www.unity3d.com/</link>
+</image>
+
+<item>
+<title>New reply to review of package &#x22;Easy Mesh Combiner MT&#x22;  by pawelzukowicz</title>
+<link>http://u3d.as/1rN6</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;Thank you very much for the great evaluation! I&#x27;m glad that Easy Mesh Combiner has helped you so much! There&#x27;s more to come! Cheers! :)&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5433587</guid>
+<pubDate>Wed, 17 Mar 2021 18:47:29 -0000</pubDate>
+</item>
+
+<item>
+<title>New review of package &#x22;Easy Mesh Combiner MT&#x22;  by pawelzukowicz</title>
+<link>http://u3d.as/1rN6</link>
+<description>&#x3C;h1&#x3E;This save my WebGl project&#x3C;/h1&#x3E;&#x3C;p&#x3E;WebGl have a bottleneck when it come to baches on any PC. (2K is max) After this limit, the game starts to stutter. I manage to decrese 2,4k batches to 1,5k. Truly magnificent tool!&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5433370</guid>
+<pubDate>Wed, 17 Mar 2021 11:50:47 -0000</pubDate>
+</item>
+
+
+
+
+
+<item>
+<title>New reply to review of package &#x22;Ultimate LOD System MT&#x22;  by SwatMessiah</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;Thank you very much for the great evaluation! I am always working to bring the best to the Ultimate LOD System. I am also working to complete full HDRP support on the Ultimate LOD System! Currently LWRP, URP and Built-in RP are officially 100% supported by the Ultimate LOD System! If you have any questions please do not hesitate to contact for support at mtassets@windsoft.xyz Cheers!&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5427187</guid>
+<pubDate>Sat, 06 Mar 2021 19:06:58 -0000</pubDate>
+</item>
+<item>
+<title>Updated review of package &#x22;Ultimate LOD System MT&#x22;  by SwatMessiah</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;Good LOD System!&#x3C;/h1&#x3E;&#x3C;p&#x3E;Nice work! Very usefull and easy to use! For HDRP i changed the &#x22;OnRenderObject&#x22; void to work in game mode :) Script UltimateLevelOfDetail: void OnRenderObject() --&#x3E; Enumerator (While loop, and WaitForEndOfFrame) OnEnable --&#x3E; StartCoroutine OnDisable --&#x3E; StopCotoutine&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5426870</guid>
+<pubDate>Sat, 06 Mar 2021 09:09:19 -0000</pubDate>
+</item>
+<item>
+<title>Updated review of package &#x22;Ultimate LOD System MT&#x22;  by SwatMessiah</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;Good LOD System!&#x3C;/h1&#x3E;&#x3C;p&#x3E;Nice work! Very usefull, but for HDRP i changed the &#x22;OnRenderObject&#x22; void to work in game mode :) Script UltimateLevelOfDetail: void OnRenderObject() --&#x3E; Enumerator (While loop, and WaitForEndOfFrame) OnEnable --&#x3E; StartCoroutine OnDisable --&#x3E; StopCotoutine&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5426866</guid>
+<pubDate>Sat, 06 Mar 2021 09:01:14 -0000</pubDate>
+</item>
+<item>
+<title>Updated review of package &#x22;Ultimate LOD System MT&#x22;  by SwatMessiah</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;Good LOD System!&#x3C;/h1&#x3E;&#x3C;p&#x3E;Nice work! Very usefull, but for HDRP i changed the &#x22;OnRenderObject&#x22; void to work in game mode :) Script UltimateLevelOfDetail: void OnRenderObject() --&#x3E; Enumerator OnEnable --&#x3E; StartCoroutine OnDisable --&#x3E; StopCotoutine&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5426865</guid>
+<pubDate>Sat, 06 Mar 2021 08:59:24 -0000</pubDate>
+</item>
+<item>
+<title>Updated review of package &#x22;Ultimate LOD System MT&#x22;  by SwatMessiah</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;Good LOD System!&#x3C;/h1&#x3E;&#x3C;p&#x3E;Nice work! Very usefull, but for HDRP i changed the &#x22;OnRenderObject&#x22; void to work in game mode :) void OnRenderObject() -&#x3E; Enumerator OnEnable -&#x3E; StartCoroutine OnDisable -&#x3E; StopCotoutine&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5426864</guid>
+<pubDate>Sat, 06 Mar 2021 08:58:35 -0000</pubDate>
+</item>
+<item>
+<title>New review of package &#x22;Ultimate LOD System MT&#x22;  by SwatMessiah</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;Good LOD System!&#x3C;/h1&#x3E;&#x3C;p&#x3E;Nice work! Very usefull, but for HDRP i changed the &#x22;OnRenderObject&#x22; void to work in game mode :)&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5426863</guid>
+<pubDate>Sat, 06 Mar 2021 08:44:06 -0000</pubDate>
+</item>
+<item>
+<title>New reply to review of package &#x22;Skinned Mesh Combiner MT&#x22;  by Ambitrix</title>
+<link>http://u3d.as/1pe2</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;Thank you very much for the great evaluation! I am always striving to do the best job, and it is always a great pleasure to help! :)&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5423743</guid>
+<pubDate>Sun, 28 Feb 2021 14:07:29 -0000</pubDate>
+</item>
+<item>
+<title>New review of package &#x22;Skinned Mesh Combiner MT&#x22;  by Ambitrix</title>
+<link>http://u3d.as/1pe2</link>
+<description>&#x3C;h1&#x3E;Pretty Much Perfect&#x3C;/h1&#x3E;&#x3C;p&#x3E;MT Assets has not only produced a solid asset that works as advertised, he has also taken the time to carefully document the various possibilities for how it can be tailored specifically to your use. In addition the numerous reviews about excellent customer service are spot-on! Punctual and precise support from the author makes this asset easily double the value in my opinion. &#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5423340</guid>
+<pubDate>Sat, 27 Feb 2021 18:04:41 -0000</pubDate>
+</item>
+<item>
+<title>New reply to review of package &#x22;Ultimate LOD System MT&#x22;  by StarbitLight</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;Thank you very much for the great evaluation! :) It is always good to know that I have done a good job! :D Thank you!!&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5421304</guid>
+<pubDate>Wed, 24 Feb 2021 17:44:48 -0000</pubDate>
+</item>
+<item>
+<title>New review of package &#x22;Ultimate LOD System MT&#x22;  by StarbitLight</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;Worth its price!&#x3C;/h1&#x3E;&#x3C;p&#x3E;Really easy to use, ULOD generates the LOD really quickly and saves the game&#x27;s performance. It even perfectly works with animated Skinned Mesh Renderer! Great job, MT! :)&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5421294</guid>
+<pubDate>Wed, 24 Feb 2021 17:04:55 -0000</pubDate>
+</item>
+<item>
+<title>New reply to review of package &#x22;Easy Mesh Combiner MT&#x22;  by AyseEZE</title>
+<link>http://u3d.as/1rN6</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;Thank you very much for the great evaluation! There is more to come in the future, and it&#x2019;s always a pleasure to help! Cheers!&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5418007</guid>
+<pubDate>Thu, 18 Feb 2021 19:59:37 -0000</pubDate>
+</item>
+<item>
+<title>New review of package &#x22;Easy Mesh Combiner MT&#x22;  by AyseEZE</title>
+<link>http://u3d.as/1rN6</link>
+<description>&#x3C;h1&#x3E;SUPER ASSET&#x3C;/h1&#x3E;&#x3C;p&#x3E;Very easy to learn and use. Combining several meshes in only one click and it is done. If you don&#x27;t like it you can simply undo and change you combination. Even if you are careless about using different metarials for different meshes; this product still increases the performance by x2. If you know what you are doing and trying to use the same material for different meshes, with this product, it is possible to get the x 8 - 9 performance. Support is great, they are standing behind their asset and answering every question in detail.&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5417585</guid>
+<pubDate>Wed, 17 Feb 2021 22:55:12 -0000</pubDate>
+</item>
+<item>
+<title>Updated review of package &#x22;Skinned Mesh Combiner MT&#x22;  by GermiyanBey</title>
+<link>http://u3d.as/1pe2</link>
+<description>&#x3C;h1&#x3E;Runtime Mesh Combining &#x26; Excellent Support!&#x3C;/h1&#x3E;&#x3C;p&#x3E;I bought this asset for its Runtime Mesh Combining support. I am using Playmaker for my scripting and it was very easy to implement what I wanted. Simply add &#x22;Skinned Mesh Combiner&#x22; component on your character, when you want to Combine, &#x22;Call Method (attach the component) &#x3E; CombineMeshes()&#x22;. It combines, it is extremely easy to work with the tool for Runtime combining purposes. 5 Stars for delivering what I needed perfectly. EDIT: Further, I needed support for a reason and the developer was very quick to respond and fix my problem, this is a perfect buy! &#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5411992</guid>
+<pubDate>Tue, 09 Feb 2021 18:58:51 -0000</pubDate>
+</item>
+<item>
+<title>New reply to review of package &#x22;Skinned Mesh Combiner MT&#x22;  by romangv93_unity</title>
+<link>http://u3d.as/1pe2</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;Thaaaaaaaank yooooooooou very much for the great evaluation hahaha!!! Cheers! :D&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5411464</guid>
+<pubDate>Mon, 08 Feb 2021 21:46:18 -0000</pubDate>
+</item>
+<item>
+<title>New review of package &#x22;Skinned Mesh Combiner MT&#x22;  by romangv93_unity</title>
+<link>http://u3d.as/1pe2</link>
+<description>&#x3C;h1&#x3E;THE BEST ASSET EVER!!! 99999999999 STARS!!!!!&#x3C;/h1&#x3E;&#x3C;p&#x3E;Awesome support, awesome asset for 13$. Great documentation! &#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5411384</guid>
+<pubDate>Mon, 08 Feb 2021 19:12:33 -0000</pubDate>
+</item>
+<item>
+<title>New reply to review of package &#x22;Skinned Mesh Combiner MT&#x22;  by mick129</title>
+<link>http://u3d.as/1pe2</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;Thank you very much for the great evaluation! I&#x27;m really happy that you got great results!&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5411319</guid>
+<pubDate>Mon, 08 Feb 2021 16:06:22 -0000</pubDate>
+</item>
+<item>
+<title>New review of package &#x22;Skinned Mesh Combiner MT&#x22;  by mick129</title>
+<link>http://u3d.as/1pe2</link>
+<description>&#x3C;h1&#x3E;Gain a huge amount of fps&#x3C;/h1&#x3E;&#x3C;p&#x3E;This asset reduced my draw calls for my ennemies by almost 90% and without any loss. &#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5410765</guid>
+<pubDate>Sun, 07 Feb 2021 23:08:41 -0000</pubDate>
+</item>
+<item>
+<title>New reply to review of package &#x22;Skinned Mesh Combiner MT&#x22;  by OGW</title>
+<link>http://u3d.as/1pe2</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;Hello Please note that Skinned Mesh Combiner only offers official support (currently) for Unity Engine versions 2019.3 or higher. While official support is only available for versions 2019.3 or higher, Skinned Mesh Combiner can also work on versions 2018 or higher from Unity. I&#x27;m sorry if you have had difficulty using the tool, but please, if possible, contact me via email &#x22;mtassets@windsoft.xyz&#x22; for help. It will be a pleasure to help. Thank you&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5409403</guid>
+<pubDate>Fri, 05 Feb 2021 15:30:57 -0000</pubDate>
+</item>
+<item>
+<title>New review of package &#x22;Skinned Mesh Combiner MT&#x22;  by OGW</title>
+<link>http://u3d.as/1pe2</link>
+<description>&#x3C;h1&#x3E;didn&#x27;t work 2018.&#x3C;/h1&#x3E;&#x3C;p&#x3E;It didn&#x27;t work when used in 2019.&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5408801</guid>
+<pubDate>Thu, 04 Feb 2021 19:24:00 -0000</pubDate>
+</item>
+<item>
+<title>Updated reply to review of package &#x22;Easy Minimap System MT&#x22;  by rubydev</title>
+<link>http://u3d.as/1C6z</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;Hi! :) I am currently working on a new version of the Easy Minimap System, in this new version, the asset is undergoing several changes and MANY improvements. In addition there are several additions and even new components that will be very useful! In the new version I&#x27;m working on, it includes improvements and updates to existing components. I highly appreciate any feedback on any of my assets, and I encourage you to contact me by email (mtassets@windsoft.xyz) if you have more feedbacks! If I understand correctly, you would like to configure the Minimap Camera component to follow the rotation of another GameObject, correct? Currently it is completely possible to use the Easy Minimap System for third-person games as well (including shoorters, 2d top down, and several other genres), just insert the Minimap Camera component in the correct location and it should be able to do everything! In the next version I will include 2 scenes demonstrating the use of the Easy Minimap System, 1 scene demonstrating its operation in FPS games and another scene demonstrating its operation in third person games! I believe that this will help people even more, with the understanding of the tool! Undoubtedly your feedback on this review was helpful! :) However, thank you very much for the great evaluation and feel free to contact me whenever you want! Cheers! PS: I&#x27;m working on a GPS route system for the Easy Minimap System and also major improvements for third-person games! One of them is the possibility to configure a minimap component, to follow the rotation of another GameObject of your choice!&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5393002</guid>
+<pubDate>Wed, 13 Jan 2021 15:53:59 -0000</pubDate>
+</item>
+<item>
+<title>New reply to review of package &#x22;Skinned Mesh Combiner MT&#x22;  by tachyon-particle</title>
+<link>http://u3d.as/1pe2</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;Hi! :) Thanks for the great review! Cheers!&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5392701</guid>
+<pubDate>Tue, 12 Jan 2021 21:05:28 -0000</pubDate>
+</item>
+<item>
+<title>New reply to review of package &#x22;Easy Minimap System MT&#x22;  by rubydev</title>
+<link>http://u3d.as/1C6z</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;Hi! :) I am currently working on a new version of the Easy Minimap System, in this new version, the asset is undergoing several changes and MANY improvements. In addition there are several additions and even new components that will be very useful! In the new version I&#x27;m working on, it includes improvements and updates to existing components. I highly appreciate any feedback on any of my assets, and I encourage you to contact me by email (mtassets@windsoft.xyz) if you have more feedbacks! If I understand correctly, you would like to configure the Minimap Camera component to follow the rotation of another GameObject, correct? Currently it is completely possible to use the Easy Minimap System for third-person games as well (including shoorters, 2d top down, and several other genres), just insert the Minimap Camera component in the correct location and it should be able to do everything! In the next version I will include 2 scenes demonstrating the use of the Easy Minimap System, 1 scene demonstrating its operation in FPS games and another scene demonstrating its operation in third person games! I believe that this will help people even more, with the understanding of the tool! Undoubtedly your feedback on this review was helpful! :) However, thank you very much for the great evaluation and feel free to contact me whenever you want! Cheers!&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5392696</guid>
+<pubDate>Tue, 12 Jan 2021 21:01:18 -0000</pubDate>
+</item>
+<item>
+<title>New review of package &#x22;Easy Minimap System MT&#x22;  by rubydev</title>
+<link>http://u3d.as/1C6z</link>
+<description>&#x3C;h1&#x3E;Work&#x3C;/h1&#x3E;&#x3C;p&#x3E;It can bake a minimap image from above and it&#x27;s really easy to do. It&#x27;s much more performant approach than using a second real-time camera other minimap system use. Still some things could be better, for example there is a smoothing for rotation, but for some reason it doesn&#x27;t applies to north so I&#x27;ve turned north off as it de-syncs. More major issue for me is that for third person you don&#x27;t have separate objects for a camera and a player. So if you move a camera around a player and bind a minimap to player&#x27;s rotation it doesn&#x27;t rotate at all. And if you bind minimap to track a camera it doesn&#x27;t places a player in the centre. I would like it to be able to track centre from one object (player) and a rotation from other one (camera). Still it&#x27;s suitable for 2d top-down, FPS or genres where camera cannot rotate. But not perfect for third person games.&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5392476</guid>
+<pubDate>Tue, 12 Jan 2021 14:56:32 -0000</pubDate>
+</item>
+<item>
+<title>New review of package &#x22;Skinned Mesh Combiner MT&#x22;  by tachyon-particle</title>
+<link>http://u3d.as/1pe2</link>
+<description>&#x3C;h1&#x3E;Excellent&#x3C;/h1&#x3E;&#x3C;p&#x3E;Excellent. Looking forward for more new features in the forthcoming future.&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5392348</guid>
+<pubDate>Tue, 12 Jan 2021 13:12:01 -0000</pubDate>
+</item>
+<item>
+<title>Updated review of package &#x22;Ultimate LOD System MT&#x22;  by DLively</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;Stay Clear&#x3C;/h1&#x3E;&#x3C;p&#x3E;Sorry for this review devs... Im working on a refund for this. 1 star seems unfair? But is it? In two hours time I applied this asset to many prefabs (and you can only use it on children, or parent [Not both]) Half the time, the asset doesn&#x27;t work as expected. Just makes a giant pile of mesh (and I tried many configs) So there I was using the undo button and my mesh filters were emptied on objects touched forever ago.. The Colliders were in place, the transform properties untouched, but the mesh squished.. Seriously!? So, 1 star because now I have to update them all manually. updating a prefab doesn&#x27;t do it -- This was supposed to save me time. not clutter my project and cause errors and timeloss. Not a very good experience. Don&#x27;t see how other people are saying what they say.. I didn&#x27;t not have a good experience and I&#x27;m on unity 2020... Wish I saved my money instead.&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5388643</guid>
+<pubDate>Thu, 07 Jan 2021 05:27:19 -0000</pubDate>
+</item>
+<item>
+<title>Updated review of package &#x22;Ultimate LOD System MT&#x22;  by DLively</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;Stay Clear&#x3C;/h1&#x3E;&#x3C;p&#x3E;Sorry for this review devs... Im working on a refund for this. 1 star seems unfair? But is it? In two hours time I applied this asset to many prefabs (and you can only use it on children, or parent [Not both]) Half the time, the asset doesn&#x27;t work as expected. Just makes a giant pile of mesh (and I tried many configs) So there I was using the undo button and my mesh filters were emptied on objects touched forever ago.. The Colliders were in place, the transform properties untouched, but the mesh squished.. Seriously!? So, 1 star because now I have to update them all manually. updating a prefab doesn&#x27;t do it -- This was supposed to save me time. not clutter my project and cause errors and timeloss. Not a very good experience. Don&#x27;t see how other people are saying what they say.. I didn&#x27;t not experience that in unity 2020... Wish I saved my money instead.&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5388642</guid>
+<pubDate>Thu, 07 Jan 2021 05:26:55 -0000</pubDate>
+</item>
+<item>
+<title>New review of package &#x22;Ultimate LOD System MT&#x22;  by DLively</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;Stay Clear&#x3C;/h1&#x3E;&#x3C;p&#x3E;Sorry for this review devs... Im working on a refund for this. 1 star seems unfair? But is it? In two hours time I applied this asset to many prefabs (and you can only use it on children, or parent [Not both]) Half the time, the asset doesn&#x27;t work as expected. Just makes a giant pile of mesh (and I tried many configs) So there I was using the undo button and my mesh filters were emptied on objects touched forever ago.. The Colliders were in place, the transform properties untouched, but the mesh squished.. Seriously!? So, 1 star because now I have to update them all manually. updating a prefab doesn&#x27;t do it -- This was supposed to save me time. not clutter my project and cause errors and timeloss. Not a very good experience. Wish I saved my money instead.&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5388641</guid>
+<pubDate>Thu, 07 Jan 2021 05:25:22 -0000</pubDate>
+</item>
+<item>
+<title>New reply to review of package &#x22;Easy Mesh Combiner MT&#x22;  by QbAnYtO</title>
+<link>http://u3d.as/1rN6</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;Thank you very much for the great evaluation! It is always nice to know that I am making people happy with my assets! It inspires me to improve everything even more! Thank you, cheers!&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5377459</guid>
+<pubDate>Wed, 23 Dec 2020 16:42:22 -0000</pubDate>
+</item>
+<item>
+<title>New review of package &#x22;Easy Mesh Combiner MT&#x22;  by QbAnYtO</title>
+<link>http://u3d.as/1rN6</link>
+<description>&#x3C;h1&#x3E;Amazing and top favorite!&#x3C;/h1&#x3E;&#x3C;p&#x3E;Optimization is Everything. Along with occlusion culling (which honest didn&#x2019;t help much). This have given me a good in increase in FPS. Just wanted to let you know that I knew I had to try out some of your other assets. And I went and got easy mesh combiner. OMG. Beautiful asset. Works amazingly well! I got a 20fps increase.from 15-24fps to 45-60fps. I know it&#x2019;s not much but visually, the difference is immense. I have a lot going on on my screen too but I can always optimize further. But again. Very happy with it. I love that I don&#x2019;t have to delete my original objects since they stay in my hierarchy but their renders get disabled by easy mesh combiner. So I can make changes and rebake. Really shocked I got more FPS. I&#x2019;m sure it&#x2019;ll be even better since my laptop is a &#x201C;budget&#x201D; laptop. On my MacBook I normally get 50-60fps but I&#x2019;m sure I&#x2019;ll get even more with this. VERY good asset man. Great job! I&#x2019;ll be using this on all my scenes and projects. &#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5377210</guid>
+<pubDate>Wed, 23 Dec 2020 07:03:06 -0000</pubDate>
+</item>
+<item>
+<title>New reply to review of package &#x22;Skinned Mesh Combiner MT&#x22;  by GermiyanBey</title>
+<link>http://u3d.as/1pe2</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;I&#x27;m happy for the great evaluation! Much success in your project! Cheers!&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5375831</guid>
+<pubDate>Tue, 22 Dec 2020 00:25:10 -0000</pubDate>
+</item>
+<item>
+<title>New reply to review of package &#x22;Ultimate LOD System MT&#x22;  by JbStudioEntertainment</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;Thanks for the great review! I am always open to feedbacks! :D&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5375828</guid>
+<pubDate>Tue, 22 Dec 2020 00:24:20 -0000</pubDate>
+</item>
+<item>
+<title>New reply to review of package &#x22;Ultimate LOD System MT&#x22;  by Tobiberger</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;Thanks for the great review! :)&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5375826</guid>
+<pubDate>Tue, 22 Dec 2020 00:20:45 -0000</pubDate>
+</item>
+<item>
+<title>New review of package &#x22;Ultimate LOD System MT&#x22;  by JbStudioEntertainment</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;It fits the proposal perfectly!&#x3C;/h1&#x3E;&#x3C;p&#x3E;Very good, self explanatory interface, very easy to use and meets your proposal with excellence. Congratulations to the creator!&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5374111</guid>
+<pubDate>Sat, 19 Dec 2020 16:09:32 -0000</pubDate>
+</item>
+<item>
+<title>New review of package &#x22;Skinned Mesh Combiner MT&#x22;  by GermiyanBey</title>
+<link>http://u3d.as/1pe2</link>
+<description>&#x3C;h1&#x3E;Runtime Mesh Combining (Using Playmaker)&#x3C;/h1&#x3E;&#x3C;p&#x3E;I bought this asset for its Runtime Mesh Combining support. I am using Playmaker for my scripting and it was very easy to implement what I wanted. Simply add &#x22;Skinned Mesh Combiner&#x22; component on your character, when you want to Combine, &#x22;Call Method (attach the component) &#x3E; CombineMeshes()&#x22;. It combines, it is extremely easy to work with the tool for Runtime combining purposes. 5 Stars for delivering what I needed perfectly. &#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5371846</guid>
+<pubDate>Wed, 16 Dec 2020 21:42:24 -0000</pubDate>
+</item>
+<item>
+<title>New review of package &#x22;Ultimate LOD System MT&#x22;  by Tobiberger</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;great&#x3C;/h1&#x3E;&#x3C;p&#x3E;thank you for the fps. I am asking myself why i didnt buy it earlier&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5370906</guid>
+<pubDate>Tue, 15 Dec 2020 18:46:21 -0000</pubDate>
+</item>
+<item>
+<title>New reply to review of package &#x22;Skinned Mesh Combiner MT&#x22;  by haendelee</title>
+<link>http://u3d.as/1pe2</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;Hi! Thanks for the good review! I am currently investigating this, and support for more than 4 bones should come in the future. Thanks again, cheers!&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5370201</guid>
+<pubDate>Mon, 14 Dec 2020 19:58:44 -0000</pubDate>
+</item>
+<item>
+<title>New review of package &#x22;Skinned Mesh Combiner MT&#x22;  by haendelee</title>
+<link>http://u3d.as/1pe2</link>
+<description>&#x3C;h1&#x3E;Wonderful. But.&#x3C;/h1&#x3E;&#x3C;p&#x3E;Thank you for making such a good function. One regret is that it doesn&#x27;t seem to support more than four Bones on Skin Weight. So objects that need more than four bones should be Ignore.&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5367697</guid>
+<pubDate>Fri, 11 Dec 2020 08:24:42 -0000</pubDate>
+</item>
+<item>
+<title>Updated review of package &#x22;Ultimate LOD System MT&#x22;  by ZealGamesStudio</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;Very good asset in this price. Reduce poly count neatly.&#x3C;/h1&#x3E;&#x3C;p&#x3E;Though this asset offer complete solution for LOD management but I only needed to reduce polycount of my meshes with in unity without doing decimation in blender etc. And in this regard, this asset does a neat and nice job and I could reduce poly count of my character from 39000 to 5000 without artifacts or holes etc. I can also save simplified meshes as asset or prefabs. Support meshes as well as skinned meshes. The only draw back is that you can not preview the mesh reduction without actually reducing the poly count and replacing the mesh. But the developer has mentioned that this is because unity stability issue. But still I have seen other assets can do this preview thing but they are 5 times expensive than this asset. So for this price lacking this feature is justified. But still it would be very helpful if we could preview mesh reduction without actually simplifying it. Thanks.&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5363946</guid>
+<pubDate>Mon, 07 Dec 2020 06:07:41 -0000</pubDate>
+</item>
+<item>
+<title>New reply to review of package &#x22;Ultimate LOD System MT&#x22;  by ZealGamesStudio</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;Thank you very much for the review! :) The preview feature is something I&#x2019;m already looking at a good way to implement. If everything goes as expected in the tests, this feature should be available in the next version of the Ultimate LOD System! Cheers!&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5363423</guid>
+<pubDate>Sun, 06 Dec 2020 15:03:07 -0000</pubDate>
+</item>
+<item>
+<title>New review of package &#x22;Ultimate LOD System MT&#x22;  by ZealGamesStudio</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;Very good asset in this price. Reduce poly count neatly.&#x3C;/h1&#x3E;&#x3C;p&#x3E;Though this asset offer complete solution for LOD management but I only needed to reduce polycount of my meshes with in unity without doing decimation in blender etc. And in this regard, this asset does a neat and nice job and I could reduce poly count of my character from 39000 to 5000 without artifacts or holes etc. I can also save simplified meshes as asset or prefabs. Support meshes as well as skinned meshes. The only draw back is that you can not preview the mesh reduction without actually reducing the poly count and replacing the mesh. But the developer has mentioned that this is because unity stability issue. But still I have seen other assets can do this preview thing but they are 5 times higher than this asset. So this is justified. But still it would be very helpful if we could preview mesh reduction without actually simplifying it. Thanks.&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5362214</guid>
+<pubDate>Sat, 05 Dec 2020 12:33:49 -0000</pubDate>
+</item>
+<item>
+<title>New reply to review of package &#x22;Ultimate LOD System MT&#x22;  by protopop</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;Thanks for the great review! Feedback from all users is very important to me, and I am always willing to bring improvements! Thanks again, I wish you a lot of success in your project! Cheers!&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5358524</guid>
+<pubDate>Tue, 01 Dec 2020 19:40:38 -0000</pubDate>
+</item>
+<item>
+<title>New review of package &#x22;Ultimate LOD System MT&#x22;  by protopop</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;Buy it&#x3C;/h1&#x3E;&#x3C;p&#x3E;So I added the component to one of my animated animal skinned mesh renderers, chose reduction to 32%, and it created a great looking new mesh in about 2 seconds. Animations still work and the mesh looks great and is wonderfully optimized. I&#x27;ve worked with several decimation tools over the last decade with Unity, and this worked so much better right off the bat. Plus it&#x27;s dead simple to use, which I appreciate. Thanks for the asset, this is going to come in very handy.&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5357537</guid>
+<pubDate>Tue, 01 Dec 2020 00:00:36 -0000</pubDate>
+</item>
+<item>
+<title>New reply to review of package &#x22;Ultimate LOD System MT&#x22;  by youngmusa</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;Thanks for the good review! :) In answer to your question, the Ultimate LOD System currently has 3 camera detection methods. - Main Camera: The camera detected will be the camera with the tag &#x22;MainCamera&#x22;. - Current Camera: ULOD will use a custom algorithm to detect the camera that is currently displayed on the screen, to calculate LODs. - Custom Camera: You can provide a camera of your choice for LODs to be calculated. Currently the Current Camera is the most practical alternative, since ULOD will detect the camera that is currently displayed on the screen, and automatically. If you still have any questions, or need a more detailed explanation, or any tips, please contact my support email! It is always a pleasure to help! mtassets@windsoft.xyz&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5351548</guid>
+<pubDate>Wed, 25 Nov 2020 18:51:42 -0000</pubDate>
+</item>
+<item>
+<title>Updated review of package &#x22;Ultimate LOD System MT&#x22;  by youngmusa</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;Real good&#x3C;/h1&#x3E;&#x3C;p&#x3E;This is nice, I like the way it functions but I&#x27;m struggling to get this working on a multiplayer game with lots of different cameras all in one scene when the system only allows you to use only one camera in the whole scene for the LOD to work, is that even possible to be able to change that?&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5351098</guid>
+<pubDate>Wed, 25 Nov 2020 10:11:54 -0000</pubDate>
+</item>
+<item>
+<title>New review of package &#x22;Ultimate LOD System MT&#x22;  by youngmusa</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;Real good&#x3C;/h1&#x3E;&#x3C;p&#x3E;This is nice, I like the way it functions but I&#x27;m struggling to get this working on a multiplayer game with lots of different cameras all in one scene when the system only allows you to use only camera for the LOD to work, is that even possible to be able to change that?&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5351096</guid>
+<pubDate>Wed, 25 Nov 2020 10:11:04 -0000</pubDate>
+</item>
+<item>
+<title>Updated review of package &#x22;Ultimate LOD System MT&#x22;  by user1j3di3j2sa3</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;impressive!&#x3C;/h1&#x3E;&#x3C;p&#x3E;The MT Assets developers have impressed me again. Im going to do more tests with this plugin but from what i can see it can handle heavy meshes while other plugins cant. ive tried 4 plugins to reduce my terrain obj mesh and all of them froze unity up.. requiring a Alt tab Delete to close unity. i wasn&#x27;t even going to bother trying it with this asset because it processes the mesh 4 times to create the lods. so i thought for sure this will crash unity of leave me waiting years to complete. but to my surprise this completed whole process in less than 30 seconds. i sh*t you not. PROS 1: in the editor you can zoom in and out and see the lods with the vertex count displayed. Unitys default lod feature doesn&#x27;t show this. 2: Speed is very impressive. 3: Poly reduction is overall very good as long as you dont go over the top with reduction amount. UPDATED: 19th November ok well this dev is just amazing. I love this update. Added the needed features as requested. Im wondering if you will be adding an option to convert your lod setup to unity default? but only after its done its thing and then theres a button to convert. it woud then remove all scripts and references and only have the default unity Lod? CONS 1: it should have an option to convert MT lods to unity default lods. why 5 stars and not less considering the cons. because even with those small negatives it is still superior to all its competitors and much cheaper. And the corners issue is not a problem if you are using skinned meshes... characters, animals etc.. Well done devs. &#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5344587</guid>
+<pubDate>Thu, 19 Nov 2020 19:13:35 -0000</pubDate>
+</item>
+<item>
+<title>New reply to review of package &#x22;Easy Mesh Combiner MT&#x22;  by SQUAREGLORY</title>
+<link>http://u3d.as/1rN6</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;Thank you very much for the great evaluation, I wish you a lot of success in your project! Cheers! :)&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5292807</guid>
+<pubDate>Sun, 01 Nov 2020 22:54:39 -0000</pubDate>
+</item>
+<item>
+<title>New review of package &#x22;Easy Mesh Combiner MT&#x22;  by SQUAREGLORY</title>
+<link>http://u3d.as/1rN6</link>
+<description>&#x3C;h1&#x3E;awesome&#x3C;/h1&#x3E;&#x3C;p&#x3E;i really like this asset, easy to use, the results are amazing sip, jempol&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5284626</guid>
+<pubDate>Sat, 31 Oct 2020 05:14:05 -0000</pubDate>
+</item>
+<item>
+<title>New reply to review of package &#x22;Easy Minimap System MT&#x22;  by MorganYT</title>
+<link>http://u3d.as/1C6z</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;Thank you very much for the great evaluation! Very successful in your project :)&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5282878</guid>
+<pubDate>Fri, 30 Oct 2020 16:45:26 -0000</pubDate>
+</item>
+<item>
+<title>New review of package &#x22;Easy Minimap System MT&#x22;  by MorganYT</title>
+<link>http://u3d.as/1C6z</link>
+<description>&#x3C;h1&#x3E;The most optimized minimap&#x3C;/h1&#x3E;&#x3C;p&#x3E;Thanks for such an asset, my project only needed to write a controller and everything works great!&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5277795</guid>
+<pubDate>Thu, 29 Oct 2020 07:12:00 -0000</pubDate>
+</item>
+<item>
+<title>Updated review of package &#x22;Ultimate LOD System MT&#x22;  by engri</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;Amazing&#x3C;/h1&#x3E;&#x3C;p&#x3E;6 on 5 stars. Not only a great, easy to use asset, but also cheaper than alternatives. How does this not have more purchases/reviews is beyond me.&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5243259</guid>
+<pubDate>Thu, 22 Oct 2020 19:30:41 -0000</pubDate>
+</item>
+<item>
+<title>New reply to review of package &#x22;Ultimate LOD System MT&#x22;  by engri</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;Thank you very much for the great evaluation! I am always striving to bring out the best! Very successful in your project! :) Cheers!&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5215320</guid>
+<pubDate>Mon, 19 Oct 2020 17:26:00 -0000</pubDate>
+</item>
+<item>
+<title>New review of package &#x22;Ultimate LOD System MT&#x22;  by engri</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;Amazing&#x3C;/h1&#x3E;&#x3C;p&#x3E;6 on 5 stars. Not only a great, easy to use asset, but also cheaper than . How does this not have more purchases/reviews is beyond me.&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5211504</guid>
+<pubDate>Sat, 17 Oct 2020 10:07:44 -0000</pubDate>
+</item>
+<item>
+<title>New reply to review of package &#x22;Easy Mesh Combiner MT&#x22;  by netkill</title>
+<link>http://u3d.as/1rN6</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;Thank you very much for the great evaluation! The export of meshes feature is already something I&#x27;m working to implement in the next version! :) Cheers!&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5209548</guid>
+<pubDate>Fri, 16 Oct 2020 01:31:34 -0000</pubDate>
+</item>
+<item>
+<title>New review of package &#x22;Easy Mesh Combiner MT&#x22;  by netkill</title>
+<link>http://u3d.as/1rN6</link>
+<description>&#x3C;h1&#x3E;Very userful tool&#x3C;/h1&#x3E;&#x3C;p&#x3E;Thank you very much for your work. It would be great if you add export to FBX in future&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5208437</guid>
+<pubDate>Thu, 15 Oct 2020 11:26:40 -0000</pubDate>
+</item>
+<item>
+<title>Updated reply to review of package &#x22;Ultimate LOD System MT&#x22;  by BeyondMASC</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;I&#x27;m really glad you liked the asset! Thank you very much for the great evaluation, if you have any feedback or suggestions, just send me, I am always open to listen! :) Cheers!&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5144022</guid>
+<pubDate>Wed, 30 Sep 2020 14:55:15 -0000</pubDate>
+</item>
+<item>
+<title>New reply to review of package &#x22;Ultimate LOD System MT&#x22;  by BeyondMASC</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;I&#x27;m really glad you liked the asset! Thank you very much for the great evaluation, if you have any feedback or suggestions, just send me, I am always open to listen! Cheers!&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5144012</guid>
+<pubDate>Wed, 30 Sep 2020 14:55:07 -0000</pubDate>
+</item>
+<item>
+<title>New review of package &#x22;Ultimate LOD System MT&#x22;  by BeyondMASC</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;Extremely GOOD!&#x3C;/h1&#x3E;&#x3C;p&#x3E;I used ULOD just to generate the mesh and works extremely well. Thank you and congrats to the devs.&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5118221</guid>
+<pubDate>Tue, 29 Sep 2020 22:13:48 -0000</pubDate>
+</item>
+<item>
+<title>New reply to review of package &#x22;Skinned Mesh Combiner MT&#x22;  by Rewaken</title>
+<link>http://u3d.as/1pe2</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;Thank you very much for the great evaluation! I&#x27;m really happy for that :) Cheers!&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5037341</guid>
+<pubDate>Sun, 27 Sep 2020 00:01:29 -0000</pubDate>
+</item>
+<item>
+<title>New review of package &#x22;Skinned Mesh Combiner MT&#x22;  by Rewaken</title>
+<link>http://u3d.as/1pe2</link>
+<description>&#x3C;h1&#x3E;Great Asset with stellar support&#x3C;/h1&#x3E;&#x3C;p&#x3E;I rarely write a review for assets I own. But this asset is really good improve your performance. I will definately check other asset from author.&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">5020356</guid>
+<pubDate>Sat, 26 Sep 2020 06:38:45 -0000</pubDate>
+</item>
+<item>
+<title>New reply to review of package &#x22;Easy Mesh Combiner MT&#x22;  by MightyAnubis</title>
+<link>http://u3d.as/1rN6</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;Thank you very much for the great evaluation! I am always striving to make things more incredible and easier and faster to do! There is more to come for EMC, very soon! Thank you, cheers! :)&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">4921073</guid>
+<pubDate>Tue, 22 Sep 2020 16:43:15 -0000</pubDate>
+</item>
+<item>
+<title>New reply to review of package &#x22;Easy Minimap System MT&#x22;  by MightyAnubis</title>
+<link>http://u3d.as/1C6z</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;Thank you very much for the great evaluation! It is always good to hear feedback! There is more to come. Cheers! :D&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">4920939</guid>
+<pubDate>Tue, 22 Sep 2020 16:40:32 -0000</pubDate>
+</item>
+<item>
+<title>New review of package &#x22;Easy Mesh Combiner MT&#x22;  by MightyAnubis</title>
+<link>http://u3d.as/1rN6</link>
+<description>&#x3C;h1&#x3E;not to believe, you NEED to have this!&#x3C;/h1&#x3E;&#x3C;p&#x3E; Holy Olympus and all gods. Please what happened here? I have rarely seen an asset that excited me as much as this one! Clever - it does not replace the meshes directly, it creates 1 combination mesh, and then leaves the &#x22;Mesh Renderer&#x22; of the others on &#x22;inactive&#x22;. The increase in performance is unimaginably awesome, even in huge scenes that have no lods. As a tip at the end: put your scene together first, then build the corresponding meshes. About the asset: easy to understand, super easy to use and absolutely flawless! This is how an asset has to be! More sensible than some things that cost more than 50 euros, and the performance gain is just ... wow. TOP!&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">4915058</guid>
+<pubDate>Tue, 22 Sep 2020 13:50:50 -0000</pubDate>
+</item>
+<item>
+<title>New review of package &#x22;Easy Minimap System MT&#x22;  by MightyAnubis</title>
+<link>http://u3d.as/1C6z</link>
+<description>&#x3C;h1&#x3E;Short but important&#x3C;/h1&#x3E;&#x3C;p&#x3E;Yes. You can made a Minimap by yourself. This will mean: you will need a lot of coding, and Bugsearch. or you can try an perfect Asset like this! Great Performance, all possibilitys you need. This is just one: a 5 Star! The Price is absolutly amazing, and the Asset works great, out of the Box and errorfree! Clear: 5 Stars!&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">4914865</guid>
+<pubDate>Tue, 22 Sep 2020 13:46:49 -0000</pubDate>
+</item>
+<item>
+<title>Updated reply to review of package &#x22;Ultimate LOD System MT&#x22;  by Calamitycal</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;Thank you very much for the great evaluation! With each version I try to improve ULOD even more! It is always a pleasure to help! Cheers! :)&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">4726064</guid>
+<pubDate>Sun, 13 Sep 2020 16:37:15 -0000</pubDate>
+</item>
+<item>
+<title>New reply to review of package &#x22;Ultimate LOD System MT&#x22;  by Calamitycal</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;Thank you very much for the great evaluation! It is always a pleasure to help! Cheers! :)&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">4726049</guid>
+<pubDate>Sun, 13 Sep 2020 16:36:41 -0000</pubDate>
+</item>
+<item>
+<title>New review of package &#x22;Ultimate LOD System MT&#x22;  by Calamitycal</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;Great asset with great support&#x3C;/h1&#x3E;&#x3C;p&#x3E;I was having trouble making LODs for the characters in my game. Ultimate LOD to the rescue! In just a few clicks I had some great looking LODs and the tri count reduction is amazing. I had a couple of small problems and contacted the developer who responded quickly and help me solve both of them. Top notch support!&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">4694939</guid>
+<pubDate>Sat, 12 Sep 2020 06:10:20 -0000</pubDate>
+</item>
+<item>
+<title>New reply to review of package &#x22;Skinned Mesh Combiner MT&#x22;  by Sayoni</title>
+<link>http://u3d.as/1pe2</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;Thank you very much for the great and descriptive evaluation! PS: I always read all the reviews, it is my favorite hobby. I feed on ratings and feedbacks haha :D Thank you very much, and much success!&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">4565457</guid>
+<pubDate>Tue, 01 Sep 2020 14:19:32 -0000</pubDate>
+</item>
+<item>
+<title>New review of package &#x22;Skinned Mesh Combiner MT&#x22;  by Sayoni</title>
+<link>http://u3d.as/1pe2</link>
+<description>&#x3C;h1&#x3E;just amazing!!&#x3C;/h1&#x3E;&#x3C;p&#x3E;this is a very easy to use tool and the results are very impressive !! In a scene for Android game I had 30 NPCs and the frame rate was doubtful, between 15 and 20 fps on a mid-range device (moto e6 plus), but after doing the procedure of this great asset with a couple of clicks , the frame rate passed between 28- 33 fps !! only in that scene !! obviously if I want more fps I&#x27;ll remove some NPCs !! in short: it is a great tool and very accessible! 100% recommended without a doubt !! I am totally satisfied! PS: thanks for reading my bible </description>
+<guid isPermaLink="false">4565162</guid>
+<pubDate>Tue, 01 Sep 2020 00:43:52 -0000</pubDate>
+</item>
+<item>
+<title>New reply to review of package &#x22;Ultimate LOD System MT&#x22;  by alvaromagnum</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;Thank you very much for the feedback and evaluation! :)&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">4564779</guid>
+<pubDate>Mon, 31 Aug 2020 11:09:58 -0000</pubDate>
+</item>
+<item>
+<title>New review of package &#x22;Ultimate LOD System MT&#x22;  by alvaromagnum</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;A MUST BUY&#x3C;/h1&#x3E;&#x3C;p&#x3E;Does what it promises in a very efficient way. Surprised with the results in comparison with other famous tools. Thanks!&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">4563965</guid>
+<pubDate>Sun, 30 Aug 2020 01:00:13 -0000</pubDate>
+</item>
+<item>
+<title>Updated reply to review of package &#x22;Skinned Mesh Combiner MT&#x22;  by Goularou</title>
+<link>http://u3d.as/1pe2</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;It is always good to receive feedback. I&#x27;m currently working on a feature that will bring compatibility to Blendshapes, for the Skinned Mesh Combiner! Thank you very much for the great evaluation! :)&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">4560072</guid>
+<pubDate>Sat, 22 Aug 2020 03:08:39 -0000</pubDate>
+</item>
+<item>
+<title>New reply to review of package &#x22;Skinned Mesh Combiner MT&#x22;  by jhontalon</title>
+<link>http://u3d.as/1pe2</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;It&#x27;s always nice to get feedback on how the Skinned Mesh Combiner helped projects! Much more to come! :) Thanks for the good review!&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">4560071</guid>
+<pubDate>Sat, 22 Aug 2020 03:07:52 -0000</pubDate>
+</item>
+<item>
+<title>New reply to review of package &#x22;Easy Mesh Combiner MT&#x22;  by AquinoJ</title>
+<link>http://u3d.as/1rN6</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;Thank you for the great evaluation! Have a good development! :D&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">4560069</guid>
+<pubDate>Sat, 22 Aug 2020 03:00:04 -0000</pubDate>
+</item>
+<item>
+<title>Updated review of package &#x22;Easy Mesh Combiner MT&#x22;  by AquinoJ</title>
+<link>http://u3d.as/1rN6</link>
+<description>&#x3C;h1&#x3E;Great merging solution, very easy and fast to use!&#x3C;/h1&#x3E;&#x3C;p&#x3E;I was able to increase my game performance a lot, using this asset! The workflow is very fast and intuitive, I was able to combine the meshes of my scenes quickly and got a great performance improvement in my mobile game! I can recommend it to everyone! :)&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">4560019</guid>
+<pubDate>Fri, 21 Aug 2020 22:58:56 -0000</pubDate>
+</item>
+<item>
+<title>Updated review of package &#x22;Skinned Mesh Combiner MT&#x22;  by jhontalon</title>
+<link>http://u3d.as/1pe2</link>
+<description>&#x3C;h1&#x3E;Great mesh combiner, works well and is very reliable!&#x3C;/h1&#x3E;&#x3C;p&#x3E;I am using it to combine the skinned meshes of the animated characters in my Tower Defense game, and it is really thanks to this asset that I can now maintain hordes with large numbers of enemies without loss of performance! And my characters continued with a lot of quality even after combining their meshes! Great job developer!&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">4560017</guid>
+<pubDate>Fri, 21 Aug 2020 22:54:59 -0000</pubDate>
+</item>
+<item>
+<title>New review of package &#x22;Skinned Mesh Combiner MT&#x22;  by jhontalon</title>
+<link>http://u3d.as/1pe2</link>
+<description>&#x3C;h1&#x3E;Great mesh combiner, works well and is very reliable!&#x3C;/h1&#x3E;&#x3C;p&#x3E;I am using it to combine the skinned meshes of the animated characters in my Tower Defense game, and it is really thanks to this asset that I can now maintain hordes with large numbers of enemies without loss of performance! And my characters continued with a lot of quality even after combining their stitches! Great job developer!&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">4560016</guid>
+<pubDate>Fri, 21 Aug 2020 22:54:22 -0000</pubDate>
+</item>
+<item>
+<title>New review of package &#x22;Easy Mesh Combiner MT&#x22;  by AquinoJ</title>
+<link>http://u3d.as/1rN6</link>
+<description>&#x3C;h1&#x3E;Great blending solution, very easy and fast to use!&#x3C;/h1&#x3E;&#x3C;p&#x3E;I was able to increase my game performance a lot, using this asset! The workflow is very fast and intuitive, I was able to combine the meshes of my scenes quickly and got a great performance improvement in my mobile game! I can recommend it to everyone! :)&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">4560013</guid>
+<pubDate>Fri, 21 Aug 2020 22:49:56 -0000</pubDate>
+</item>
+<item>
+<title>Updated review of package &#x22;Skinned Mesh Combiner MT&#x22;  by AquinoJ</title>
+<link>http://u3d.as/1pe2</link>
+<description>&#x3C;h1&#x3E;Great mesh combiner, works well and is very reliable!&#x3C;/h1&#x3E;&#x3C;p&#x3E;I am using it to combine the skinned meshes of the animated characters in my Tower Defense game, and it is really thanks to this asset that I can now maintain hordes with large numbers of enemies without loss of performance! And my characters continued with a lot of quality even after combining their stitches! Great job developer!&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">4560012</guid>
+<pubDate>Fri, 21 Aug 2020 22:45:07 -0000</pubDate>
+</item>
+<item>
+<title>Updated review of package &#x22;Skinned Mesh Combiner MT&#x22;  by AquinoJ</title>
+<link>http://u3d.as/1pe2</link>
+<description>&#x3C;h1&#x3E;Great mesh combiner, works well and is very reliable!&#x3C;/h1&#x3E;&#x3C;p&#x3E;I am using it to combine the skinned meshes of the animated characters in my Tower Defense game, and it is really thanks to this asset that I can now maintain hordes with large numbers of enemies without loss of performance! I ended up reducing from 550 batches to just 40 batches! Great job developer!&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">4560011</guid>
+<pubDate>Fri, 21 Aug 2020 22:43:36 -0000</pubDate>
+</item>
+<item>
+<title>Updated review of package &#x22;Skinned Mesh Combiner MT&#x22;  by Goularou</title>
+<link>http://u3d.as/1pe2</link>
+<description>&#x3C;h1&#x3E;Excellent!&#x3C;/h1&#x3E;&#x3C;p&#x3E;Very efficient, reliable tool, and great support. I definitely recommend it! Edit: not working with blendshapes, yet. planned soon, and then will be 6 stars. Support is definitely great. &#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">4559469</guid>
+<pubDate>Thu, 20 Aug 2020 17:39:59 -0000</pubDate>
+</item>
+<item>
+<title>New reply to review of package &#x22;Skinned Mesh Combiner MT&#x22;  by Goularou</title>
+<link>http://u3d.as/1pe2</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;It is always good to receive feedback. Thank you very much for the great evaluation! :)&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">4559343</guid>
+<pubDate>Thu, 20 Aug 2020 12:28:24 -0000</pubDate>
+</item>
+<item>
+<title>New review of package &#x22;Skinned Mesh Combiner MT&#x22;  by Goularou</title>
+<link>http://u3d.as/1pe2</link>
+<description>&#x3C;h1&#x3E;Excellent!&#x3C;/h1&#x3E;&#x3C;p&#x3E;Very efficient, reliable tool, and great support. I definitely recommend it!&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">4559008</guid>
+<pubDate>Wed, 19 Aug 2020 15:46:48 -0000</pubDate>
+</item>
+<item>
+<title>New reply to review of package &#x22;Ultimate LOD System MT&#x22;  by jasonflintz0</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;It&#x27;s great to see big projects using the tools created by me! I hope it all right! :) Much success and thank you for the evaluation!&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">4552696</guid>
+<pubDate>Fri, 07 Aug 2020 12:33:44 -0000</pubDate>
+</item>
+<item>
+<title>New reply to review of package &#x22;Ultimate LOD System MT&#x22;  by jhontalon</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;Thank you very much for the great evaluation! :D&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">4552694</guid>
+<pubDate>Fri, 07 Aug 2020 12:24:43 -0000</pubDate>
+</item>
+<item>
+<title>Updated review of package &#x22;Ultimate LOD System MT&#x22;  by jhontalon</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;It helped a lot in my open world project!&#x3C;/h1&#x3E;&#x3C;p&#x3E;I didn&#x27;t expect to have such a significant performance increase on my project, but to my surprise, after generating LODs from my buildings, horizon (including trees, distant mountains, distant clouds, animals, etc.) and etc., my game really stayed more beautiful and performed better! Now I can put a lot more on the screen, without worrying so much about the amount of vertices! This is so good for mobile games! I contacted the developer to ask some questions and the support was also very good! Thank you for that! :)&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">4551032</guid>
+<pubDate>Tue, 04 Aug 2020 01:56:13 -0000</pubDate>
+</item>
+<item>
+<title>Updated review of package &#x22;Ultimate LOD System MT&#x22;  by jasonflintz0</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;One of the best assets for optimization!&#x3C;/h1&#x3E;&#x3C;p&#x3E;I&#x27;m developing an RPG game where I need to display a large number of objects on the screen, and when the player looks away, I want many things to still appear on the screen, to make the environment more alive and more beautiful, however, after a while adding objects in the scene, things were really beautiful, but my game performance dropped a lot... After researching optimization tips and so on, I came to understand the need to have LODs from my meshes and then I found this beautiful asset! After implementing it in my open world RPG scene, I generated LODs from the objects in my scene and now I can display things very far away, without any problems! In addition, I liked the result so much that I acquired the Easy Mesh Combiner, also published by MT Assets, so I combined the meshes of my scene, the meshes of trees, objects, etc., and generated LODs from the combined meshes and the result was even more impressive! I will probably buy the Skinned Mesh Combiner MT to introduce it to my project! Now I can display distant meshes and almost no performance losses, I loved it!&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">4551031</guid>
+<pubDate>Tue, 04 Aug 2020 01:53:15 -0000</pubDate>
+</item>
+<item>
+<title>New review of package &#x22;Ultimate LOD System MT&#x22;  by jasonflintz0</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;One of the best assets for optimization!&#x3C;/h1&#x3E;&#x3C;p&#x3E;I&#x27;m developing an RPG game where I need to display a large number of objects on the screen, and when the player looks away, I want many things to still appear on the screen, to make the environment more alive and more beautiful, however, after a while adding objects in the scene, things were really beautiful, but my game performance dropped a lot... After researching optimization tips and so on, I came to understand the need to have LODs from my fabrics and then I found this beautiful asset! After implementing it in my open world RPG scene, I generated LODs from the objects in my scene and now I can display things very far away, without any problems! In addition, I liked the result so much that I acquired the Easy Mesh Combiner, also published by MT Assets, so I combined the meshes of my scene, the meshes of trees, objects, etc., and generated LODs from the combined meshes and the result was even more impressive. ! Now I can display distant meshes and almost no performance losses, I loved it!&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">4551030</guid>
+<pubDate>Tue, 04 Aug 2020 01:49:17 -0000</pubDate>
+</item>
+<item>
+<title>New review of package &#x22;Ultimate LOD System MT&#x22;  by jhontalon</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;It helped a lot in my open world project!&#x3C;/h1&#x3E;&#x3C;p&#x3E;I didn&#x27;t expect to have such a significant performance increase on my project, but to my surprise, after generating LODs from my buildings, horizon (including trees, distant mountains, distant clouds, animals, etc.) and etc., my game really stayed more beautiful and performed better! Now I can put a lot more on the screen, without worrying so much about the amount of vertices! This is so good for mobile games! Thank you for that! :)&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">4551028</guid>
+<pubDate>Tue, 04 Aug 2020 01:32:35 -0000</pubDate>
+</item>
+<item>
+<title>New reply to review of package &#x22;Ultimate LOD System MT&#x22;  by user1j3di3j2sa3</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;Thank you very much for this great review! The Ultimate LOD System has just been released, but it sure helped me a lot! A system to define the amount of LODs that the meshes will have, is already underway and should arrive soon, the idea of converting the LODs from ULOD to Unity Default LOD is really a good idea and I will add all the points you mentioned, the my list of things to do! It is always good to hear feedback and know where improvements can be made! I am always open to feedback and working to make my assets even better! Much success and thank you! :)&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">4550832</guid>
+<pubDate>Mon, 03 Aug 2020 17:14:51 -0000</pubDate>
+</item>
+<item>
+<title>New review of package &#x22;Ultimate LOD System MT&#x22;  by user1j3di3j2sa3</title>
+<link>http://u3d.as/1UvH</link>
+<description>&#x3C;h1&#x3E;impressive!&#x3C;/h1&#x3E;&#x3C;p&#x3E;The MT Assets developers have impressed me again. Im going to do more tests with this plugin but from what i can see it can handle heavy meshes while other plugins cant. ive tried 4 plugins to reduce my terrain obj mesh and all of them froze unity up.. requiring a Alt tab Delete to close unity. i wasn&#x27;t even going to bother trying it with this asset because it processes the mesh 4 times to create the lods. so i thought for sure this will crash unity of leave me waiting years to complete. but to my surprise this completed whole process in less than 30 seconds. i sh*t you not. PROS 1: in the editor you can zoom in and out and see the lods with the vertex count displayed. Unitys default lod feature doesn&#x27;t show this. 2: Speed is very impressive. 3: Poly reduction is overall very good as long as you dont go over the top with reduction amount but there is still room for improvement. but if you poly reduce a plane you will see it cuts the corners off, not keeping the edge intact. not a huge problem but like a said there is room for improvement. CONS 1: doesnt give the option of how many lods to create. 2: it should have an option to convert MT lods to unity default lods. 3: poly reduction needs a little more work with hard edge corners. (not a problem with characters though) why 5 stars and not less considering the cons. because even with those small negatives it is still superior to all its competitors and much cheaper. And the corners issue is not a problem if you are using skinned meshes... characters, animals etc.. Well done devs. &#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">4550257</guid>
+<pubDate>Sun, 02 Aug 2020 12:43:54 -0000</pubDate>
+</item>
+<item>
+<title>New reply to review of package &#x22;Easy Mesh Combiner MT&#x22;  by FabioPDJ</title>
+<link>http://u3d.as/1rN6</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;Thank you very much for the great evaluation! :D&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">4549626</guid>
+<pubDate>Sat, 01 Aug 2020 00:12:17 -0000</pubDate>
+</item>
+<item>
+<title>New review of package &#x22;Easy Mesh Combiner MT&#x22;  by FabioPDJ</title>
+<link>http://u3d.as/1rN6</link>
+<description>&#x3C;h1&#x3E;simples mas com um bom resultado&#x3C;/h1&#x3E;&#x3C;p&#x3E;com poucos clicks j&#xE1; &#xE9; poss&#xED;vel juntar v&#xE1;rias mesh, ajudou no desempenho do meu jogo &#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">4549598</guid>
+<pubDate>Fri, 31 Jul 2020 22:46:08 -0000</pubDate>
+</item>
+<item>
+<title>New reply to review of package &#x22;Skinned Mesh Combiner MT&#x22;  by qkdnrh10</title>
+<link>http://u3d.as/1pe2</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;Thank you for your good rating and feedback! BlendShapes support is a feature that is on my to-do list and I plan to bring BlendShapes support to the Skinned Mesh Combiner soon! Thank you very much, be very successful in your projects! :)&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">4547200</guid>
+<pubDate>Sun, 26 Jul 2020 19:20:10 -0000</pubDate>
+</item>
+<item>
+<title>New review of package &#x22;Skinned Mesh Combiner MT&#x22;  by qkdnrh10</title>
+<link>http://u3d.as/1pe2</link>
+<description>&#x3C;h1&#x3E;This allows real-time baking. That is a big advantage.&#x3C;/h1&#x3E;&#x3C;p&#x3E;Almost everything has perfect and affordable. However, it did&#x27;t support blend shapes. In my game, the character face contains many blend shapes. Even if the price goes up, I wish I could support that function.&#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">4547143</guid>
+<pubDate>Sun, 26 Jul 2020 16:19:34 -0000</pubDate>
+</item>
+<item>
+<title>New reply to review of package &#x22;Easy Mesh Combiner MT&#x22;  by pkatsia</title>
+<link>http://u3d.as/1rN6</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;I&#x27;m glad you had such a good result on your project. I am always ready to receive feedbacks and help my customers, and always willing to make EMC even better! Thank you very much for the great evaluation! :)&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">4547045</guid>
+<pubDate>Sun, 26 Jul 2020 11:00:56 -0000</pubDate>
+</item>
+<item>
+<title>New review of package &#x22;Easy Mesh Combiner MT&#x22;  by pkatsia</title>
+<link>http://u3d.as/1rN6</link>
+<description>&#x3C;h1&#x3E;Its Amazing!! Very Good Support !!!&#x3C;/h1&#x3E;&#x3C;p&#x3E;I had some issues first but it was my fault since I had not enabled the write permission for my meshes!! I have contacted the developer and his response fast and very helpful. I had around 700 Batches before this asset. Now I have 6-7 !! It&#x27;s amazing!! Definitely recommended!! &#x3C;/p&#x3E;&#x3C;p&#x3E;Rated by user: &#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x26;#9733;&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">4546451</guid>
+<pubDate>Fri, 24 Jul 2020 22:29:58 -0000</pubDate>
+</item>
+<item>
+<title>New reply to review of package &#x22;Skinned Mesh Combiner MT&#x22;  by jamesthewelsh</title>
+<link>http://u3d.as/1pe2</link>
+<description>&#x3C;h1&#x3E;Reply from publisher&#x3C;/h1&#x3E;&#x3C;p&#x3E;Thank you very much for the great evaluation! It&#x27;s always good to get compliments from my clients. If you needed to contact me, it would certainly be a pleasure to help, it is always a pleasure to help! haha Thanks again, much success in your project! :D&#x3C;/p&#x3E;</description>
+<guid isPermaLink="false">4541174</guid>
+<pubDate>Mon, 13 Jul 2020 21:54:55 -0000</pubDate>
+</item>
+</channel>
+</rss>
