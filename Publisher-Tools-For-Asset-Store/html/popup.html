@@ -24,13 +24,83 @@
                             <input id="loginReviewsRss" type="text" placeholder="Reviews RSS" />
                             <br>
                             <input id="loginButton" type="button" value="Save" />
+                            <br>
+                            <br>
+                            <small><a href="how-to-find-login-data.html" target="_blank">How to find this data?</a></small>
                         </center>
                     </div>
                 </div>
             </div>
 
             <!-- PopUp Content -->
-            <div class="topbar"></div>
+            <div class="topbar">
+                <img src="../img/icon48.png" />
+                <div class="topbarTitle">Publisher Tools For Asset Store</div>
+            </div>
+
+            <!-- Loading Screen -->
+            <div id="loadingScreenNode" class="loadingScreen">
+                <img src="../img/loading.gif" />
+            </div>
+
+            <!-- Messages Title -->
+            <div class="contentSubtitles">Extension Resume</div>
+            <!-- Get Data Error Info -->
+            <div id="getDataErrorMessage" class="errorMessage">
+                We were unable to retrieve your Sales/Review data. Please make sure that your browser is currently logged into the Publisher Portal of the Asset Store.
+                <br>
+                <br>
+                Also check that your Publisher ID and Review RSS Link provided is valid.
+            </div>
+            <!-- Everything is ok Info -->
+            <div id="allOkMessage" class="allRightMessage">
+                <div class="allRightMessageContent">
+                    <div class="allRightMessageContentTitle">
+                        <img src="../img/all-right.png" />
+                        <div class="allRightMessageContentTitleText">All right!</div>
+                    </div>
+                    <div class="allRightMessageContentText">Everything is up to date and the Extension is making periodic updates in Background Service to search for new Sales or Reviews.</div>
+                </div>
+            </div>
+
+            <!-- Publisher Info Title -->
+            <br>
+            <br>
+            <div class="contentSubtitles">Your Publisher Info</div>
+            <center>
+                <input id="prefsPublisherId" type="number" placeholder="Publisher ID" />
+                <br>
+                <input id="prefsReviewsRss" type="text" placeholder="Reviews RSS" />
+                <br>
+                <input id="prefsPublisherSave" type="button" value="Save" />
+                <br>
+                <small><a href="how-to-find-login-data.html" target="_blank">How to find this data?</a></small>
+            </center>
+
+            <!-- Extension Preferences Title -->
+            <br>
+            <br>
+            <div class="contentSubtitles">Extension Preferences</div>
+            <center>
+                <select id="prefsDelayBetweenUpdates">
+                    <option value="1">Update Each 1 Minutes</option>
+                    <option value="5">Update Each 5 Minutes</option>
+                    <option value="10">Update Each 10 Minutes</option>
+                    <option value="15">Update Each 15 Minutes</option>
+                    <option value="30">Update Each 30 Minutes</option>
+                    <option value="60">Update Each 60 Minutes</option>
+                </select>
+                <br>
+                <select id="prefsNotifyOnStartService">
+                    <option value="true">Notify On Start Service</option>
+                    <option value="false">Not Notify On Start Service</option>
+                </select>
+            </center>
+
+            <!-- Donate Button -->
+            <a href="https://www.paypal.com/donate?hosted_button_id=MVDJY3AXLL8T2&source=url" target="_blank" title="Donate for this Extension project!">
+                <div class="donateButton"><img src="../img/paypal.png"></div>
+            </a>
         </div>
     </body>
 

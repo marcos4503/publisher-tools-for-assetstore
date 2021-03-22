@@ -5,3 +5,8 @@
 @import url(components/login-popup.css);
 @import url(components/input.css);
 @import url(components/topbar.css);
+@import url(components/a.css);
+@import url(components/messages.css);
+@import url(components/loading-screen.css);
+@import url(components/content-subtitles.css);
+@import url(components/donate-button.css);

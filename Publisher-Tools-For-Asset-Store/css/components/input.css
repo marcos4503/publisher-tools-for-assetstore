@@ -1,4 +1,4 @@
-input[type=text], input[type=number] {
+input[type=text], input[type=number], select {
   width: 80%;
   max-width: 220px;
   padding: 12px 12px;

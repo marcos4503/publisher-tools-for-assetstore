@@ -1,0 +1,54 @@
+.errorMessage{
+    width: auto;
+    border-radius: 6px;
+    background-color: #6f0004c4;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4px;
+    margin-top: 4px;
+    font-size: 12px;
+    display: none;
+    transition: 250ms;
+    opacity: 0.0;
+    text-align: center;
+}
+
+.allRightMessage{
+    width: auto;
+    border-radius: 6px;
+    background-color: #001d7ac4;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4px;
+    margin-top: 4px;
+    font-size: 12px;
+    display: none;
+    transition: 250ms;
+    opacity: 0.0;
+}
+.allRightMessageContent{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.allRightMessageContentTitle{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+.allRightMessageContentTitleText{
+    font-size: 22px;
+    font-weight: bolder;
+    line-height: 48px;
+}
+.allRightMessage img{
+    margin-top: 8px;
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+}
+.allRightMessageContentText{
+    text-align: center;
+}

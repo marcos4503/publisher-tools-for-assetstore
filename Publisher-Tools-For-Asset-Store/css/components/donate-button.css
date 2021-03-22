@@ -1,0 +1,16 @@
+.donateButton{
+    width: 32px;
+    height: 32px;
+    position: fixed;
+    bottom: 12px;
+    left: 4px;
+    background-color: #000000;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.donateButton img{
+    width: 65%;
+    height: 65%;
+}

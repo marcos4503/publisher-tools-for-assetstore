@@ -4,4 +4,25 @@
     background-color: #060606;
     padding: 4px;
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 400;
+}
+.topbar img{
+    height: 36px;
+    margin-top: 6px;
+    margin-right: 8px;
+    float: left;
+}
+.topbarTitle{
+    height: 36px;
+    margin-top: 6px;
+    color: #f5f5f5;
+    font-weight: bolder;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
 }

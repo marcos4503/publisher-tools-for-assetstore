@@ -1,4 +1,18 @@
 .extensionPopUpBase{
-    width: 300px;
+    width: 330px;
     height: 380px;
+    max-height: 380px;
+    padding: 4px;
+    padding-top: 60px;
+    overflow: auto;
+}
+::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+}
+::-webkit-scrollbar-track {
+    background: #cecece; 
+}
+::-webkit-scrollbar-thumb {
+    background: #282828; 
 }
