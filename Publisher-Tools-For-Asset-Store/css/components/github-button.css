@@ -1,0 +1,16 @@
+.githubButton{
+    width: 32px;
+    height: 32px;
+    position: fixed;
+    bottom: calc(12px + 4px + 32px);
+    left: 4px;
+    background-color: #000000;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.githubButton img{
+    width: 90%;
+    height: 90%;
+}
