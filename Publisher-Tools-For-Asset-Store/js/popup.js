@@ -72,6 +72,57 @@ function RenderOrUpdatePopUpContent() {
             localStorage.setItem("temp_reviewsRss", reviewsRss.value);
         });
 
+        //Register listener to auto fecth button
+        document.getElementById("loginFetch").addEventListener("click", function () {
+            //Change the fetch button
+            var fetchButton = document.getElementById("loginFetch");
+            fetchButton.setAttribute("style", "background-color: #6b6b6b; background-image: url(../img/loading.gif); background-size: 24px; background-repeat: no-repeat; background-position: center;");
+            var oldButtonValue = fetchButton.value;
+            fetchButton.value = " ";
+            fetchButton.disabled = true;
+
+            //Do a HTTP request to get all publisher info needed
+            var httpFetchRequest = new XMLHttpRequest();
+            httpFetchRequest.onreadystatechange = function () {
+                //On done loading
+                if (this.readyState == 4) {
+                    //On success
+                    if (this.status == 200) {
+                        //Process JSON returned Data
+                        var jsonData = JSON.parse(httpFetchRequest.responseText);
+                        publisherId.value = jsonData.publisher_id;
+                        publisherId.dispatchEvent(new Event('input'));
+
+                        //Do a HTTP request to get RSS reviews
+                        var httpFetchRssRequest = new XMLHttpRequest();
+                        httpFetchRssRequest.onreadystatechange = function () {
+                            //On done loading
+                            if (this.readyState == 4) {
+                                //On success
+                                if (this.status == 200) {
+                                    //Process JSON returned Data
+                                    var jsonData2 = JSON.parse(httpFetchRssRequest.responseText);
+                                    reviewsRss.value = jsonData2.url;
+                                    reviewsRss.dispatchEvent(new Event('input'));
+                                }
+                            }
+                        };
+                        httpFetchRssRequest.open("GET", "https://publisher.assetstore.unity3d.com/api/publisher-info/activity-feed-url/" + publisherId.value + ".json", true);
+                        httpFetchRssRequest.withCredentials = true;
+                        httpFetchRssRequest.send();
+                    }
+
+                    //Reset state of button
+                    fetchButton.setAttribute("style", "");
+                    fetchButton.value = oldButtonValue;
+                    fetchButton.disabled = false;
+                }
+            };
+            httpFetchRequest.open("GET", "https://publisher.assetstore.unity3d.com/api/user/overview.json", true);
+            httpFetchRequest.withCredentials = true;
+            httpFetchRequest.send();
+        });
+
         //Register listener to Save button
         document.getElementById("loginButton").addEventListener("click", function () {
             //Show errors
@@ -153,6 +204,13 @@ function RenderOrUpdatePopUpContent() {
     prefsNotifyOnStartService.value = localStorage.getItem("showNotificationOnStart");
     prefsNotifyOnStartService.addEventListener("change", function () {
         localStorage.setItem("showNotificationOnStart", prefsNotifyOnStartService.value);
+    });
+    var prefsResetAllDataButton = document.getElementById("prefsResetAll");
+    prefsResetAllDataButton.addEventListener("click", function () {
+        //Reset all data and reload extension
+        localStorage.clear();
+        chrome.runtime.reload();
+        window.close();
     });
 
     //Shows the button to open reviws window

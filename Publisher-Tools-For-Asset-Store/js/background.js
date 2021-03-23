@@ -19,7 +19,7 @@ function StartBackgroundService() {
     if (localStorage.getItem("delayBetweenUpdates") == null)
         localStorage.setItem("delayBetweenUpdates", "30");
     if (localStorage.getItem("showNotificationOnStart") == null)
-        localStorage.setItem("showNotificationOnStart", "false");
+        localStorage.setItem("showNotificationOnStart", "true");
 
     //Notify the start, if is enabled
     if (localStorage.getItem("showNotificationOnStart") == "true")
@@ -93,7 +93,7 @@ function OnRunNewUpdateOfService() {
         return;
     }
 
-    //-------------- Do a HTTP Request to process Sales -------------
+    //-------------- Start Do a HTTP Request to process Sales -------------
     var httpSalesRequest = new XMLHttpRequest();
     httpSalesRequest.onreadystatechange = function () {
         //On done loading
@@ -105,9 +105,13 @@ function OnRunNewUpdateOfService() {
                 problemsOcurredOnDoSalesRequest = false;
                 ShowOrHideBadgeIfOcurredErrorOnSomeRequest();
 
-                //Allocate variables of sales information
+                //Allocate variables of sales, refunds and chargebacks information
                 var lastCheckTotalSales = 0;
                 var currentCheckTotalSales = 0;
+                var lastCheckTotalRefunds = 0;
+                var currentCheckTotalRefunds = 0;
+                var lastCheckTotalChargebacks = 0;
+                var currentCheckTotalChargebacks = 0;
 
                 //Process JSON returned Data
                 var responseJson = JSON.parse(httpSalesRequest.responseText);
@@ -125,14 +129,21 @@ function OnRunNewUpdateOfService() {
                     var productNetSales = allResults[i].net;
                     var productShortUrl = allResults[i].short_url;
 
-                    //If have sales data for this asset, compare and notify (if month of last check is different from current month, the last check is zero)
-                    if (localStorage.getItem(productName + " (Sales)") != null)
-                        if (JSON.parse(localStorage.getItem(productName + " (Sales)")).lastCheckMonth == mm.toString())
-                            lastCheckTotalSales += parseInt(JSON.parse(localStorage.getItem(productName + " (Sales)")).lastSalesCount, 10);
+                    //If have data of last check, for this asset, sum the sales, refunds and chargebacks count to total of last check variables
+                    if (localStorage.getItem("[Sales] " + productName) != null)
+                        if (JSON.parse(localStorage.getItem("[Sales] " + productName)).lastCheckMonth == mm.toString()) {
+                            var lastCheckDataForThisAsset = JSON.parse(localStorage.getItem("[Sales] " + productName));
+                            lastCheckTotalSales += parseInt(lastCheckDataForThisAsset.lastSalesCount, 10);
+                            lastCheckTotalRefunds += parseInt(lastCheckDataForThisAsset.lastRefundsCount, 10);
+                            lastCheckTotalChargebacks += parseInt(lastCheckDataForThisAsset.lastChargebacksCount, 10);
+                        }
+                    //Get sales, refunds and chargebacks count of this asset, to total of current check
                     currentCheckTotalSales += parseInt(productSales, 10);
+                    currentCheckTotalRefunds += parseInt(productRefunds, 10);
+                    currentCheckTotalChargebacks += parseInt(productChargebacks, 10);
 
-                    //Save new sales data for this asset
-                    localStorage.setItem(productName + " (Sales)", '{"lastSalesCount":"' + productSales + '", "lastCheckMonth":"' + mm + '"}');
+                    //Save new sales, refund and chargebacks data for this asset
+                    localStorage.setItem("[Sales] " + productName, '{"lastSalesCount":"' + productSales + '", "lastRefundsCount":"' + productRefunds + '", "lastChargebacksCount":"' + productChargebacks + '", "lastCheckMonth":"' + mm + '"}');
                 }
 
                 //If currentCheckTotalSales is greater than lastCheckTotalSales, notify publisher about new sales
@@ -140,9 +151,29 @@ function OnRunNewUpdateOfService() {
                     chrome.notifications.create("",
                         {
                             type: "basic",
-                            iconUrl: "../img/new-sales.png",
+                            iconUrl: "../img/notify-new-sale.png",
                             title: "New Sales Made!",
-                            message: (currentCheckTotalSales - lastCheckTotalSales).toString() + " new sales have been made since the last check done, in this Month."
+                            message: (currentCheckTotalSales - lastCheckTotalSales).toString() + " new Sales have been made, since the last check done in this Month."
+                        },
+                        function () { });
+                //If currentCheckTotalRefunds is greater than lastCheckTotalRefunds, notify publisher about new refunds
+                if (currentCheckTotalRefunds > lastCheckTotalRefunds)
+                    chrome.notifications.create("",
+                        {
+                            type: "basic",
+                            iconUrl: "../img/notify-new-refund.png",
+                            title: "New Refunds Made!",
+                            message: (currentCheckTotalRefunds - lastCheckTotalRefunds).toString() + " new Refunds have been made, since the last check done in this Month."
+                        },
+                        function () { });
+                //If currentCheckTotalChargebacks is greater than lastCheckTotalChargebacks, notify publisher about new chargebacks
+                if (currentCheckTotalChargebacks > lastCheckTotalChargebacks)
+                    chrome.notifications.create("",
+                        {
+                            type: "basic",
+                            iconUrl: "../img/notify-new-chargeback.png",
+                            title: "New Chargebacks Made!",
+                            message: (currentCheckTotalChargebacks - lastCheckTotalChargebacks).toString() + " new Chargebacks have been made, since the last check done in this Month."
                         },
                         function () { });
             }
@@ -158,8 +189,9 @@ function OnRunNewUpdateOfService() {
     httpSalesRequest.open("GET", "https://publisher.assetstore.unity3d.com/api/publisher-info/sales/" + localStorage.getItem("publisherId") + "/" + yy + mm + ".json", true);
     httpSalesRequest.withCredentials = true;
     httpSalesRequest.send();
+    //-------------- End Do a HTTP Request to process Sales -------------
 
-    //-------------- Do a HTTP Request to process Reviews -------------
+    //-------------- Start Do a HTTP Request to process Reviews -------------
     var httpReviewsRequest = new XMLHttpRequest();
     httpReviewsRequest.onreadystatechange = function () {
         //On done loading
@@ -241,7 +273,7 @@ function OnRunNewUpdateOfService() {
                     chrome.notifications.create("",
                         {
                             type: "basic",
-                            iconUrl: "../img/new-review.png",
+                            iconUrl: "../img/notify-new-review.png",
                             title: "New Review Posted!",
                             message: notificationContentForNewReviewPosted
                         },
@@ -252,7 +284,7 @@ function OnRunNewUpdateOfService() {
                     chrome.notifications.create("",
                         {
                             type: "basic",
-                            iconUrl: "../img/updated-review.png",
+                            iconUrl: "../img/notify-updated-review.png",
                             title: "New Review Updated!",
                             message: notificationContentForNewReviewUpdated
                         },
@@ -270,12 +302,13 @@ function OnRunNewUpdateOfService() {
     httpReviewsRequest.open("GET", localStorage.getItem("reviewsRss"), true);
     httpReviewsRequest.withCredentials = true;
     httpReviewsRequest.send();
+    //-------------- End Do a HTTP Request to process Reviews -------------
 
     //Save time of last update of service
     chrome.runtime.sendMessage({ msg: "ReportServiceLastUpdateTime", time: time });
 
     //Notify this update on console
-    console.log("New Update Of Service Was Runned In " + dd + "/" + mm + " " + time + ".");
+    console.log("New Update Of Service Was Runned In " + dd + "/" + mm + " " + time + ". (Sales Request: " + ((problemsOcurredOnDoSalesRequest == false) ? "Ok" : "Error") + " | Reviews Request: " + ((problemsOcurredOnDoReviewsRequest == false) ? "Ok" : "Error") + ")");
 }
 
 //Function that show or hide the badge, if ocurred problems on some http request

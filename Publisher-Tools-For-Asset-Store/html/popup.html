@@ -17,13 +17,18 @@
                 <div class="loginPopUp">
                     <div class="loginPopUpContent">
                         <center>
-                            <div class="loginPopUpTitle">Please provide the necessary data!</div>
-                            <div class="loginPopUpSubtitle">The extension needs you to provide some data in order to be able to use it. Please fill in the fields below.</div>
+                            <div class="loginPopUpTitle">Please provide the necessary data</div>
+                            <div class="loginPopUpSubtitle">
+                                The extension needs you to provide some data in order to be able to use it. Please fill in the fields below.
+                                <br>
+                                You can click on "Get Automatically" for the Extension to obtain the data automatically, but you need to be currently logged into the Publisher Portal.
+                            </div>
                             <input id="loginPublisherId" type="number" placeholder="Publisher ID" />
                             <br>
                             <input id="loginReviewsRss" type="text" placeholder="Reviews RSS" />
                             <br>
-                            <input id="loginButton" type="button" value="Save" />
+                            <input id="loginFetch" type="button" value="Get Automatically" />
+                            <input id="loginButton" type="button" value="Save And Continue" />
                             <br>
                             <br>
                             <small><a href="how-to-find-login-data.html" target="_blank">How to find this data?</a></small>
@@ -105,7 +110,6 @@
             <div class="contentSubtitles">Extension Preferences</div>
             <center>
                 <select id="prefsDelayBetweenUpdates">
-                    <option value="1">Update Each 1 Minutes</option>
                     <option value="5">Update Each 5 Minutes</option>
                     <option value="10">Update Each 10 Minutes</option>
                     <option value="15">Update Each 15 Minutes</option>
@@ -114,10 +118,16 @@
                 </select>
                 <br>
                 <select id="prefsNotifyOnStartService">
-                    <option value="true">Notify On Start Service</option>
                     <option value="false">Not Notify On Start Service</option>
+                    <option value="true">Notify On Start Service</option>
                 </select>
+                <input id="prefsResetAll" type="button" value="Reset All Data And Reload" />
             </center>
+
+            <!-- Review Button -->
+            <a href="https://github.com/marcos4503/publisher-tools-for-assetstore" target="_blank" title="Review This Extension On Chrome Store!">
+                <div class="reviewButton"><img src="../img/review.png"></div>
+            </a>
 
             <!-- GitHub Button -->
             <a href="https://github.com/marcos4503/publisher-tools-for-assetstore" target="_blank" title="This Extension Source Code On GitHub!">
