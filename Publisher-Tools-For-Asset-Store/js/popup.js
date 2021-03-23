@@ -5,6 +5,7 @@ var doneLoadingSalesData = false;
 var doneLoadingReviewsData = false;
 var haveErrorOnGetSalesInfo = false;
 var haveErrorOnGetReviewsInfo = false;
+var lastReviewsRssXmlContentGetted;
 
 //------ Starting functions ------
 
@@ -149,6 +150,104 @@ function RenderOrUpdatePopUpContent() {
     prefsNotifyOnStartService.value = localStorage.getItem("showNotificationOnStart");
     prefsNotifyOnStartService.addEventListener("change", function () {
         localStorage.setItem("showNotificationOnStart", prefsNotifyOnStartService.value);
+    });
+
+    //Shows the button to open reviws window
+    var openReviewsButton = document.getElementById("openReviewsWindowButton");
+    var closeReviewsButton = document.getElementById("closeReviewsWindowButton");
+    var reviewsWindow = document.getElementById("reviewsWindowNode");
+    openReviewsButton.setAttribute("style", "opacity: 1; display: block;");
+    openReviewsButton.addEventListener("click", function () {
+        closeReviewsButton.setAttribute("style", "opacity: 0.5; pointer-events: all;");
+        reviewsWindow.setAttribute("style", "right: 0px; pointer-events: all;");
+
+        //Reset UI state
+        document.getElementById("reviewsWindowLoadingNode").style.display = "block";
+        document.getElementById("reviewsWindowContentBaseNode").style.display = "none";
+        document.getElementById("reviewsWindowLoadErrorNode").style.display = "none";
+
+        //Do a HTTP request to get all reviews from RSS
+        var httpReviewsRequest = new XMLHttpRequest();
+        httpReviewsRequest.onreadystatechange = function () {
+            //On done loading
+            if (this.readyState == 4) {
+                //On success
+                if (this.status == 200) {
+                    //Process XML RSS returned Data
+                    var xmlDoc = httpReviewsRequest.responseXML;
+                    var rssRootNode = xmlDoc.getElementsByTagName("rss");
+                    var reviewsNodes = rssRootNode[0].getElementsByTagName("item");
+                    var assetsNames = ["All My Assets"];
+                    //Loop to find all asset names
+                    for (var i = 0; i < reviewsNodes.length; i++) {
+                        //Get title of this review
+                        var titleNodeText = reviewsNodes[i].getElementsByTagName("title")[0].innerHTML;
+                        //If this is a reply from publisher, ignore this and move to next
+                        if (titleNodeText.includes("New reply") == true)
+                            continue;
+                        //Add this asset to list of assets
+                        if (assetsNames.includes(titleNodeText.split("\"")[1]) == false)
+                            assetsNames.push(titleNodeText.split("\"")[1]);
+                    }
+                    //Add options finded to selector
+                    var optionsCode = "";
+                    for (var i = 0; i < assetsNames.length; i++)
+                        optionsCode += '<option value="' + assetsNames[i] + '">' + assetsNames[i] + '</option>';
+                    document.getElementById("assetToViewReviews").innerHTML = optionsCode;
+
+                    //Save this RSS Reviews content getted
+                    lastReviewsRssXmlContentGetted = xmlDoc;
+
+                    //Add listener to selector
+                    document.getElementById("assetToViewReviews").addEventListener("change", function () {
+                        //Build a HTML code to show reviews for selected asset
+                        var buildedHtmlCode = "";
+                        var desiredAssetToShowReviews = document.getElementById("assetToViewReviews").value;
+
+                        //Loop into all assets reviews to build HTML code
+                        for (var i = 0; i < reviewsNodes.length; i++) {
+                            //Get title of this review
+                            var titleNodeText = reviewsNodes[i].getElementsByTagName("title")[0].innerHTML;
+                            var descriptionNodeText = reviewsNodes[i].getElementsByTagName("description")[0].innerHTML;
+                            var publicationNodeText = reviewsNodes[i].getElementsByTagName("pubDate")[0].innerHTML;
+                            //If this is a reply from publisher, ignore this and move to next
+                            if (titleNodeText.includes("New reply") == true)
+                                continue;
+                            //Get all data about review of this asset
+                            var assetName = titleNodeText.split("\"")[1];
+                            var author = titleNodeText.split("\"  by ")[1];
+                            var description = descriptionNodeText;
+                            var stars = (descriptionNodeText.match(/&amp;#9733;/g) || []).length;
+                            var publicationDate = publicationNodeText;
+                            //If this is a review for desired asset, insert into builded code
+                            if (desiredAssetToShowReviews == assetName || desiredAssetToShowReviews == "All My Assets")
+                                buildedHtmlCode += assetName + "<br>";
+                        }
+
+                        //Show HTML code
+                        document.getElementById("reviewsWindowContentNode").innerHTML = buildedHtmlCode;
+                    })
+                    document.getElementById("assetToViewReviews").dispatchEvent(new Event("change"));
+
+                    //Show content
+                    document.getElementById("reviewsWindowLoadingNode").style.display = "none";
+                    document.getElementById("reviewsWindowContentBaseNode").style.display = "block";
+                }
+                //On fail
+                if (this.status != 200) {
+                    //Show Error
+                    document.getElementById("reviewsWindowLoadingNode").style.display = "none";
+                    document.getElementById("reviewsWindowLoadErrorNode").style.display = "block";
+                }
+            }
+        };
+        httpReviewsRequest.open("GET", localStorage.getItem("reviewsRss"), true);
+        httpReviewsRequest.withCredentials = true;
+        httpReviewsRequest.send();
+    });
+    closeReviewsButton.addEventListener("click", function () {
+        closeReviewsButton.setAttribute("style", "opacity: 0; pointer-events: none;");
+        reviewsWindow.setAttribute("style", "right: -100%; pointer-events: none;");
     });
 }
 

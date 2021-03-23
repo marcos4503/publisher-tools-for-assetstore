@@ -1,5 +1,6 @@
 .errorMessage{
-    width: auto;
+    width: 80%;
+    max-width: 220px;
     border-radius: 6px;
     background-color: #6f0004c4;
     color: white;
@@ -15,7 +16,8 @@
 }
 
 .allRightMessage{
-    width: auto;
+    width: 80%;
+    max-width: 220px;
     border-radius: 6px;
     background-color: #001d7ac4;
     color: white;
@@ -29,7 +31,7 @@
     opacity: 0.0;
 }
 .allRightMessageContent{
-    width: 90%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -51,4 +53,5 @@
 }
 .allRightMessageContentText{
     text-align: center;
+    font-size: 12px;
 }

@@ -33,9 +33,30 @@
             </div>
 
             <!-- PopUp Content -->
+
+            <!-- Topbar Content -->
             <div class="topbar">
                 <img src="../img/icon48.png" />
                 <div class="topbarTitle">Publisher Tools For Asset Store</div>
+                <div id="openReviewsWindowButton" class="openReviewsButton">
+                    <img src="../img/review-icon.png" />
+                </div>
+            </div>
+            <!-- Reviews Window -->
+            <div id="closeReviewsWindowButton" class="reviewsWindowBg"></div>
+            <div id="reviewsWindowNode" class="reviewsWindow">
+                <div id="reviewsWindowLoadingNode" class="reviewsWindowLoading">Getting content...</div>
+                <div id="reviewsWindowLoadErrorNode" class="reviewsWindowLoadingError">Error fetching content. Please try again.</div>
+                <div id="reviewsWindowContentBaseNode" class="reviewsWindowBaseContent">
+                    <div class="reviewsWindowContentTopbar">
+                        <center>
+                            <select id="assetToViewReviews"></select>
+                        </center>
+                    </div>
+                    <div id="reviewsWindowContentNode" class="reviewsWindowContent">
+
+                    </div>
+                </div>
             </div>
 
             <!-- Loading Screen -->

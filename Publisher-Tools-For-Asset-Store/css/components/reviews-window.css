@@ -1,0 +1,59 @@
+.reviewsWindowBg{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    background-color: #000000;
+    z-index: 500;
+    cursor: pointer;
+    transition: 250ms;
+    opacity: 0;
+    pointer-events: none;
+}
+.reviewsWindow{
+    width: calc(100% - 48px);
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    background-color: #fbfbfb;
+    z-index: 505;
+    padding: 4px;
+    transition: 250ms;
+    right: -100%;
+    pointer-events: none;
+    overflow: auto;
+}
+.reviewsWindowLoading{
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+    font-weight: bolder;
+    text-align: center;
+    display: block;
+}
+.reviewsWindowLoadingError{
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+    font-weight: bolder;
+    text-align: center;
+    display: none;
+    color: #790000;
+}
+.reviewsWindowBaseContent{
+    width: 100%;
+    display: none;
+}
+.reviewsWindowBaseContent select{
+    margin-top: 6px;
+}
+.reviewsWindowContentTopbar{
+    width: 100%;
+    position: sticky;
+    top: -4px;
+    background-color: #fbfbfb;
+}
+.reviewsWindowContent{
+    width: 100%;
+}
