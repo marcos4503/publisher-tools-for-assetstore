@@ -125,9 +125,10 @@ function OnRunNewUpdateOfService() {
                     var productNetSales = allResults[i].net;
                     var productShortUrl = allResults[i].short_url;
 
-                    //If have sales data for this asset, compare and notify
+                    //If have sales data for this asset, compare and notify (if month of last check is different from current month, the last check is zero)
                     if (localStorage.getItem(productName + " (Sales)") != null)
-                        lastCheckTotalSales += parseInt(JSON.parse(localStorage.getItem(productName + " (Sales)")).lastSalesCount, 10);
+                        if (JSON.parse(localStorage.getItem(productName + " (Sales)")).lastCheckMonth == mm.toString())
+                            lastCheckTotalSales += parseInt(JSON.parse(localStorage.getItem(productName + " (Sales)")).lastSalesCount, 10);
                     currentCheckTotalSales += parseInt(productSales, 10);
 
                     //Save new sales data for this asset
