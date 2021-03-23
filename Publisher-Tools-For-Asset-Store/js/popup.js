@@ -25,6 +25,9 @@ function StartPopUpService() {
 
             if (request.msg == "ReportDoneLoadingReviewsData")
                 ReportDoneLoadingReviewsData((request.errorOcurred == "true") ? true : false);
+
+            if (request.msg == "ReportServiceLastUpdateTime")
+                ReportServiceLastUpdateTime(request.time);
         }
     );
 
@@ -182,8 +185,9 @@ function RenderOrUpdatePopUpContent() {
                     for (var i = 0; i < reviewsNodes.length; i++) {
                         //Get title of this review
                         var titleNodeText = reviewsNodes[i].getElementsByTagName("title")[0].innerHTML;
+                        var descriptionNodeText = reviewsNodes[i].getElementsByTagName("description")[0].innerHTML;
                         //If this is a reply from publisher, ignore this and move to next
-                        if (titleNodeText.includes("New reply") == true)
+                        if (titleNodeText.includes("New reply") == true || descriptionNodeText.includes("Reply from publisher") == true)
                             continue;
                         //Add this asset to list of assets
                         if (assetsNames.includes(titleNodeText.split("\"")[1]) == false)
@@ -211,17 +215,19 @@ function RenderOrUpdatePopUpContent() {
                             var descriptionNodeText = reviewsNodes[i].getElementsByTagName("description")[0].innerHTML;
                             var publicationNodeText = reviewsNodes[i].getElementsByTagName("pubDate")[0].innerHTML;
                             //If this is a reply from publisher, ignore this and move to next
-                            if (titleNodeText.includes("New reply") == true)
+                            if (titleNodeText.includes("New reply") == true || descriptionNodeText.includes("Reply from publisher") == true)
                                 continue;
                             //Get all data about review of this asset
                             var assetName = titleNodeText.split("\"")[1];
                             var author = titleNodeText.split("\"  by ")[1];
-                            var description = descriptionNodeText;
+                            var title = descriptionNodeText.split("&lt;/h1&gt;")[0].replace("&lt;h1&gt;", "");
+                            var description = descriptionNodeText.split("&lt;p&gt;")[1].split("&lt;/p&gt;")[0];
                             var stars = (descriptionNodeText.match(/&amp;#9733;/g) || []).length;
-                            var publicationDate = publicationNodeText;
+                            var publicationDate = publicationNodeText.replace(" -0000", "").split(", ")[1];
+                            var typeOfReview = (titleNodeText.includes("New review") == true) ? "New" : "Updated";
                             //If this is a review for desired asset, insert into builded code
                             if (desiredAssetToShowReviews == assetName || desiredAssetToShowReviews == "All My Assets")
-                                buildedHtmlCode += assetName + "<br>";
+                                buildedHtmlCode += '<div class="reviewBlock" style="background-color: ' + ((typeOfReview == "New") ? "#ecffeb" : "#fff5e8") + ';"><div class="reviewBlockAssetName"><b>(' + typeOfReview + ')</b> On ' + assetName + '</div><div class="reviewBlockTitle">' + title + '</div><div class="reviewBlockDescription">' + description + '</div><div class="reviewBlockInfo"><div class="reviewBlockStars"><img src="../img/star.png"/>' + stars + '</div><div class="reviewBlockTime"><img src="../img/time.png"/>' + publicationDate + '</div><div class="reviewBlockAuthor"><img src="../img/author.png"/>' + author + '</div></div></div>';
                         }
 
                         //Show HTML code
@@ -276,4 +282,8 @@ function ReportDoneLoadingReviewsData(errorOcurred) {
 
     //Update the popup content
     RenderOrUpdatePopUpContent();
+}
+//Function that report the last service update time
+function ReportServiceLastUpdateTime(time) {
+    document.getElementById("lastServiceUpdateTime").innerHTML = "Last Service Update ocurred at " + time + ".";
 }

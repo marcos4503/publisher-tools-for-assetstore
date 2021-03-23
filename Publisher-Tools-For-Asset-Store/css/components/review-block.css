@@ -1,0 +1,72 @@
+.reviewBlock{
+    width: auto;
+    background-color: #727272;
+    border-radius: 4px;
+    padding: 4px;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    border-color: #e1e1e1;
+    border-style: solid;
+    border-width: 1px;
+}
+.reviewBlockAssetName{
+    width: 100%;
+    font-size: 9px;
+    font-style: italic;
+    opacity: 0.8;
+}
+.reviewBlockTitle{
+    width: 100%;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-bottom: 6px;
+    margin-top: 6px;
+}
+.reviewBlockDescription{
+    width: 100%;
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+.reviewBlockInfo{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30px 140px auto;
+}
+.reviewBlockStars{
+    height: 14px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+.reviewBlockStars img{
+    width: 14px;
+    height: 14px;
+    margin-right: 2px;
+}
+.reviewBlockTime{
+    height: 14px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+.reviewBlockTime img{
+    width: 14px;
+    height: 14px;
+    margin-right: 2px;
+}
+.reviewBlockAuthor{
+    height: 14px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+.reviewBlockAuthor img{
+    width: 14px;
+    height: 14px;
+    margin-right: 2px;
+}

@@ -49,10 +49,14 @@
     margin-top: 6px;
 }
 .reviewsWindowContentTopbar{
-    width: 100%;
+    width: calc(100% + 8px);
     position: sticky;
     top: -4px;
+    margin-left: -4px;
+    margin-top: -4px;
     background-color: #fbfbfb;
+    z-index: 510;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.28);
 }
 .reviewsWindowContent{
     width: 100%;

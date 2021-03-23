@@ -186,7 +186,7 @@ function OnRunNewUpdateOfService() {
                     var titleNodeText = reviewsNodes[i].getElementsByTagName("title")[0].innerHTML;
                     var descriptionNodeText = reviewsNodes[i].getElementsByTagName("description")[0].innerHTML;
                     //If this is a reply from publisher, ignore this and move to next
-                    if (titleNodeText.includes("New reply") == true)
+                    if (titleNodeText.includes("New reply") == true || descriptionNodeText.includes("Reply from publisher") == true)
                         continue;
                     //If this is a new review from custumer
                     if (titleNodeText.includes("New review") == true) {
@@ -213,7 +213,7 @@ function OnRunNewUpdateOfService() {
                     var titleNodeText = reviewsNodes[i].getElementsByTagName("title")[0].innerHTML;
                     var descriptionNodeText = reviewsNodes[i].getElementsByTagName("description")[0].innerHTML;
                     //If this is a reply from publisher, ignore this and move to next
-                    if (titleNodeText.includes("New reply") == true)
+                    if (titleNodeText.includes("New reply") == true || descriptionNodeText.includes("Reply from publisher") == true)
                         continue;
                     //If this is a updated review from custumer
                     if (titleNodeText.includes("Updated review") == true) {
@@ -269,6 +269,9 @@ function OnRunNewUpdateOfService() {
     httpReviewsRequest.open("GET", localStorage.getItem("reviewsRss"), true);
     httpReviewsRequest.withCredentials = true;
     httpReviewsRequest.send();
+
+    //Save time of last update of service
+    chrome.runtime.sendMessage({ msg: "ReportServiceLastUpdateTime", time: time });
 
     //Notify this update on console
     console.log("New Update Of Service Was Runned In " + dd + "/" + mm + " " + time + ".");
