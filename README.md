@@ -7,7 +7,6 @@
 
 To use this extension, from the code of this Repository, it is very simple. Just clone this repository by downloading it, then, in your Chromium browser, go to `chrome://extensions/` and then click on `Load Without Package` and then select the folder `Publisher-Tools-For-Asset-Store` of this repository.
 <br>
-<br>
 <p align="center" style="font-size: 2px;">
     <b>It's recommended that you download this Extension from the Chrome Webstore.</b>
 </p>
