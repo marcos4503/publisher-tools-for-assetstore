@@ -1,5 +1,5 @@
 <p align="center" style="font-size: 2px;">
-    <img src="Extension-Data/screenshot2.png" />
+    <img src="Extension-Data/screenshot.png" />
     Clone this repository and read the topics below to know how to use this Extension.
 </p>
 
