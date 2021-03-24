@@ -11,7 +11,7 @@ To use this extension, from the code of this Repository, it is very simple. Just
 
 This extension is intended for Publishers in the Asset Store and provides some tools for Publishers. This extension aims to provide some additional tools to the Publishers Portal, in order to complement it and not replace it, but to make life easier for the Editor. Some of the features currently available are...
 
-- Reading of the latest comments published or updated by customers, from the Extension interface.
+- Reading of the latest Reviews Published or Updated by customers, from the Extension interface.
 - New Sales Notifications
 - New Refunds Notifications
 - New Chargebacks Notifications
@@ -27,6 +27,8 @@ The extension is currently only compatible with `Chromium` based browsers and ha
 - Microsoft Edge Chromium
 
 This extension, however, should work well on all other untested `Chromium` based browsers.
+<br>
+There are currently no plans to offer official compatibility with `Firefox`.
 
 # Privacy/Security Notice
 
