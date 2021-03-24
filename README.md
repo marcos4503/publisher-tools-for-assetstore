@@ -9,7 +9,15 @@ To use this extension, from the code of this Repository, it is very simple. Just
 
 # Extension Features
 
-- teste
+This extension is intended for Publishers in the Asset Store and provides some tools for Publishers. This extension aims to provide some additional tools to the Publishers Portal, in order to complement it and not replace it, but to make life easier for the Editor. Some of the features currently available are...
+
+- Reading of the latest comments published or updated by customers, from the Extension interface.
+- New Sales Notifications
+- New Refunds Notifications
+- New Chargebacks Notifications
+- New Reviews Notifications
+- New Updated Reviews Notifications
+- And more...
 
 # Support projects like this
 
