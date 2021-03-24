@@ -1,5 +1,5 @@
 <p align="center" style="font-size: 2px;">
-    <img src="Documentation-Template/DocumentationFiles/images/screenshot.png" />
+    <img src="Extension-Data/screenshot.png" />
     Clone this repository and read the topics below to know how to use this Extension.
 </p>
 
@@ -26,7 +26,7 @@ The extension is currently only compatible with `Chromium` based browsers and ha
 - Google Chrome
 - Microsoft Edge Chromium
 
-This extension, however, should work well on all other untested Chromium based browsers.
+This extension, however, should work well on all other untested `Chromium` based browsers.
 
 # Privacy/Security Notice
 
