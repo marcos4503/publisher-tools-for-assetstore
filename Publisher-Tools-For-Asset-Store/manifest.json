@@ -14,12 +14,8 @@
         "128": "img/icon128.png"
     },
     "permissions": [
-        "contextMenus",
-        "tabs",
         "notifications",
         "alarms",
-        "cookies",
-        "*://*.unity3d.com/*",
         "*://*.assetstore.unity3d.com/*"
     ],
     "background": {
