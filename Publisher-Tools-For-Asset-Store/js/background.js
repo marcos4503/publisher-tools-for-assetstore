@@ -19,7 +19,7 @@ function StartBackgroundService() {
     if (localStorage.getItem("delayBetweenUpdates") == null)
         localStorage.setItem("delayBetweenUpdates", "30");
     if (localStorage.getItem("showNotificationOnStart") == null)
-        localStorage.setItem("showNotificationOnStart", "true");
+        localStorage.setItem("showNotificationOnStart", "false");
 
     //Notify the start, if is enabled
     if (localStorage.getItem("showNotificationOnStart") == "true")
@@ -105,13 +105,20 @@ function OnRunNewUpdateOfService() {
                 problemsOcurredOnDoSalesRequest = false;
                 ShowOrHideBadgeIfOcurredErrorOnSomeRequest();
 
-                //Allocate variables of sales, refunds and chargebacks information
-                var lastCheckTotalSales = 0;
-                var currentCheckTotalSales = 0;
-                var lastCheckTotalRefunds = 0;
-                var currentCheckTotalRefunds = 0;
-                var lastCheckTotalChargebacks = 0;
-                var currentCheckTotalChargebacks = 0;
+                //Allocate variables to store name information for each asset returned by API
+                var currentSalesPerAssetNames = new Array();
+                //Allocate variables to store sales, refunds and chargebacks information for each asset returned by API
+                var currentSalesPerAssetSales = new Array();
+                var currentSalesPerAssetRefunds = new Array();
+                var currentSalesPerAssetChargebacks = new Array();
+                //Allocate variables of sales, refunds and chargebacks information to store total values of this current check
+                var totalSalesOfCurrentCheck = 0;
+                var totalRefundsOfCurrentCheck = 0;
+                var totalChargebacksOfCurrentCheck = 0;
+                //Allocate variables of sales, refunds and chargebacks information of last check done
+                var totalSalesOfLastCheck = 0;
+                var totalRefundsOfLastCheck = 0;
+                var totalChargebacksOfLastCheck = 0;
 
                 //Process JSON returned Data
                 var responseJson = JSON.parse(httpSalesRequest.responseText);
@@ -129,51 +136,79 @@ function OnRunNewUpdateOfService() {
                     var productNetSales = allResults[i].net;
                     var productShortUrl = allResults[i].short_url;
 
-                    //If have data of last check, for this asset, sum the sales, refunds and chargebacks count to total of last check variables
-                    if (localStorage.getItem("[Sales] " + productName) != null)
-                        if (JSON.parse(localStorage.getItem("[Sales] " + productName)).lastCheckMonth == mm.toString()) {
-                            var lastCheckDataForThisAsset = JSON.parse(localStorage.getItem("[Sales] " + productName));
-                            lastCheckTotalSales += parseInt(lastCheckDataForThisAsset.lastSalesCount, 10);
-                            lastCheckTotalRefunds += parseInt(lastCheckDataForThisAsset.lastRefundsCount, 10);
-                            lastCheckTotalChargebacks += parseInt(lastCheckDataForThisAsset.lastChargebacksCount, 10);
-                        }
-                    //Get sales, refunds and chargebacks count of this asset, to total of current check
-                    currentCheckTotalSales += parseInt(productSales, 10);
-                    currentCheckTotalRefunds += parseInt(productRefunds, 10);
-                    currentCheckTotalChargebacks += parseInt(productChargebacks, 10);
-
-                    //Save new sales, refund and chargebacks data for this asset
-                    localStorage.setItem("[Sales] " + productName, '{"lastSalesCount":"' + productSales + '", "lastRefundsCount":"' + productRefunds + '", "lastChargebacksCount":"' + productChargebacks + '", "lastCheckMonth":"' + mm + '"}');
+                    //Save all data of this asset, returned by this Request in current sales info variables
+                    var idOfThisAssetInList = -1;
+                    for (var x = 0; x < currentSalesPerAssetNames.length; x++)
+                        if (currentSalesPerAssetNames[x] == productName)
+                            idOfThisAssetInList = x;
+                    //If is not first time of this asset, in list
+                    if (idOfThisAssetInList != -1) {
+                        currentSalesPerAssetSales[idOfThisAssetInList] += parseInt(productSales, 10);
+                        currentSalesPerAssetRefunds[idOfThisAssetInList] += parseInt(productRefunds, 10);
+                        currentSalesPerAssetChargebacks[idOfThisAssetInList] += parseInt(productChargebacks, 10);
+                    }
+                    //If is the first time of this asset, in list
+                    if (idOfThisAssetInList == -1) {
+                        currentSalesPerAssetNames.push(productName);
+                        currentSalesPerAssetSales.push(parseInt(productSales, 10));
+                        currentSalesPerAssetRefunds.push(parseInt(productRefunds, 10));
+                        currentSalesPerAssetChargebacks.push(parseInt(productChargebacks, 10));
+                    }
                 }
 
-                //If currentCheckTotalSales is greater than lastCheckTotalSales, notify publisher about new sales
-                if (currentCheckTotalSales > lastCheckTotalSales)
+                //Process all data collected of JSON returned by API. Extract all different data of lastCheck to currentCheck for each asset
+                for (var i = 0; i < currentSalesPerAssetNames.length; i++) {
+                    //Get sales, refunds and chargebacks data currently stored in local storage
+                    var thisAssetName = currentSalesPerAssetNames[i];
+                    var currentDataAboutThisAssetOnLocalStorage = localStorage.getItem("[Sales] " + thisAssetName);
+
+                    //Save sales, refunds and chargebacks data of last check of this asset, in the pre-alocated variables of last check
+                    if (currentDataAboutThisAssetOnLocalStorage != null) {
+                        var thisAssetJsonData = JSON.parse(currentDataAboutThisAssetOnLocalStorage);
+                        if (thisAssetJsonData.lastCheckMonth == mm.toString()) {
+                            totalSalesOfLastCheck += parseInt(thisAssetJsonData.lastSalesCount, 10);
+                            totalRefundsOfLastCheck += parseInt(thisAssetJsonData.lastRefundsCount, 10);
+                            totalChargebacksOfLastCheck += parseInt(thisAssetJsonData.lastChargebacksCount, 10);
+                        }
+                    }
+
+                    //Sum this data in the total sales, refunds and chargebacks data of all assets, in the pre-alocated variables of current check
+                    totalSalesOfCurrentCheck += currentSalesPerAssetSales[i];
+                    totalRefundsOfCurrentCheck += currentSalesPerAssetRefunds[i];
+                    totalChargebacksOfCurrentCheck += currentSalesPerAssetChargebacks[i];
+
+                    //Finally, save in local storage, the new values of sales, refund and chargebacks getted in current check
+                    localStorage.setItem("[Sales] " + thisAssetName, '{"lastSalesCount":"' + currentSalesPerAssetSales[i] + '", "lastRefundsCount":"' + currentSalesPerAssetRefunds[i] + '", "lastChargebacksCount":"' + currentSalesPerAssetChargebacks[i] + '", "lastCheckMonth":"' + mm + '"}');
+                }
+
+                //If totalSalesOfCurrentCheck is greater than totalSalesOfLastCheck, notify publisher about new sales
+                if (totalSalesOfCurrentCheck > totalSalesOfLastCheck)
                     chrome.notifications.create("",
                         {
                             type: "basic",
                             iconUrl: "../img/notify-new-sale.png",
                             title: "New Sales Made!",
-                            message: (currentCheckTotalSales - lastCheckTotalSales).toString() + " new Sales have been made, since the last check done in this Month."
+                            message: (totalSalesOfCurrentCheck - totalSalesOfLastCheck).toString() + " new Sales have been made, since the last check done in this Month."
                         },
                         function () { });
-                //If currentCheckTotalRefunds is greater than lastCheckTotalRefunds, notify publisher about new refunds
-                if (currentCheckTotalRefunds > lastCheckTotalRefunds)
+                //If totalRefundsOfCurrentCheck is greater than totalRefundsOfLastCheck, notify publisher about new refunds
+                if (totalRefundsOfCurrentCheck > totalRefundsOfLastCheck)
                     chrome.notifications.create("",
                         {
                             type: "basic",
                             iconUrl: "../img/notify-new-refund.png",
                             title: "New Refunds Made!",
-                            message: (currentCheckTotalRefunds - lastCheckTotalRefunds).toString() + " new Refunds have been made, since the last check done in this Month."
+                            message: (totalRefundsOfCurrentCheck - totalRefundsOfLastCheck).toString() + " new Refunds have been made, since the last check done in this Month."
                         },
                         function () { });
-                //If currentCheckTotalChargebacks is greater than lastCheckTotalChargebacks, notify publisher about new chargebacks
-                if (currentCheckTotalChargebacks > lastCheckTotalChargebacks)
+                //If totalChargebacksOfCurrentCheck is greater than totalChargebacksOfLastCheck, notify publisher about new chargebacks
+                if (totalChargebacksOfCurrentCheck > totalChargebacksOfLastCheck)
                     chrome.notifications.create("",
                         {
                             type: "basic",
                             iconUrl: "../img/notify-new-chargeback.png",
                             title: "New Chargebacks Made!",
-                            message: (currentCheckTotalChargebacks - lastCheckTotalChargebacks).toString() + " new Chargebacks have been made, since the last check done in this Month."
+                            message: (totalChargebacksOfCurrentCheck - totalChargebacksOfLastCheck).toString() + " new Chargebacks have been made, since the last check done in this Month."
                         },
                         function () { });
             }
