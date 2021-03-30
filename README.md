@@ -8,7 +8,7 @@
 To use this extension, from the code of this Repository, it is very simple. Just clone this repository by downloading it, then, in your Chromium browser, go to `chrome://extensions/` and then click on `Load Without Package` and then select the folder `Publisher-Tools-For-Asset-Store` of this repository.
 <br>
 <p align="center" style="font-size: 2px;">
-    <b>For normal use it's recommended that you download this Extension from the Chrome Webstore.</b>
+    <b>For normal use it's recommended that you download this Extension from the <a href="https://chrome.google.com/webstore/detail/publisher-tools-for-asset/cjjcdljhliejgenbacmeicjpbnnpbmha" target="_blank">Chrome Webstore</a>.</b>
 </p>
 
 # Extension Features
